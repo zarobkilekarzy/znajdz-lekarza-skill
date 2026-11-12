@@ -4,6 +4,8 @@
 
 Zestaw instrukcji (skill), dzięki któremu asystent AI pomaga znaleźć w Polsce lekarza specjalistę dopasowanego do konkretnego problemu zdrowotnego.
 
+**Opis dla osób nietechnicznych, z instrukcją krok po kroku: [zarobkilekarzy.pl/znajdz-lekarza](https://zarobkilekarzy.pl/znajdz-lekarza/)**
+
 Asystent z tym skillem:
 
 1. **Sprawdza, czy to nie nagły przypadek.** Jeśli tak — od razu kieruje pod 112 lub na SOR, podaje [mapę SOR z bieżącymi kolejkami](https://zarobkilekarzy.pl/prawa-pacjenta/sor/) i pomaga znaleźć najbliższy oddział.
@@ -129,7 +131,7 @@ Adresy stron i odpowiedzi API się zmieniają. Jeśli coś przestało działać 
 
 ## O projekcie
 
-Skill rozwija [zarobkilekarzy.pl](https://zarobkilekarzy.pl) — obywatelski serwis o jawności pieniędzy publicznych w ochronie zdrowia. Projekt nie jest powiązany z NFZ ani z serwisem ZnanyLekarz i nie pobiera żadnych opłat od lekarzy ani placówek.
+Skill rozwija [zarobkilekarzy.pl](https://zarobkilekarzy.pl) (strona skilla: [zarobkilekarzy.pl/znajdz-lekarza](https://zarobkilekarzy.pl/znajdz-lekarza/)) — obywatelski serwis o jawności pieniędzy publicznych w ochronie zdrowia. Projekt nie jest powiązany z NFZ ani z serwisem ZnanyLekarz i nie pobiera żadnych opłat od lekarzy ani placówek.
 
 ## Licencja
 
