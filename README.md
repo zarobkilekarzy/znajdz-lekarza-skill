@@ -33,6 +33,32 @@ W Windows znak `~` oznacza folder użytkownika, np. `C:\Users\Anna`. Katalogi mo
 
 Asystent musi mieć dostęp do internetu (wyszukiwanie i czytanie stron).
 
+## Jak używać
+
+Nie trzeba znać żadnych poleceń. Napisz, z czym szukasz lekarza i gdzie mieszkasz:
+
+- „Szukam dobrego endokrynologa w Krakowie, mam guzek tarczycy.”
+- „Do kogo pójść z nawracającym bólem barku po urazie? Jestem z Lublina.”
+- „Potrzebuję neurologa dziecięcego na NFZ w okolicach Rzeszowa.”
+- „Ile się czeka do okulisty na NFZ w Gdańsku?”
+
+Co będzie dalej:
+
+1. **Asystent zada kilka pytań** — od kiedy trwa problem, co już zrobiono, jak daleko możesz dojechać, jak pilnie, NFZ czy prywatnie. Odpowiadaj krótko; jeśli czegoś nie wiesz, napisz to.
+2. **Powie, kogo będzie szukać** (np. „ortopeda zajmujący się artroskopią barku”) i poprosi o potwierdzenie. Tu możesz go poprawić.
+3. **Poszuka i poda 3–5 lekarzy.** Przy każdym: dlaczego pasuje, gdzie przyjmuje, ile kosztuje wizyta albo ile się czeka na NFZ, i jak się umówić. Trwa to zwykle kilka minut.
+
+Potem możesz poprosić o więcej: „poszerz szukanie na całe województwo”, „pokaż tylko NFZ”, „przygotuj pytania na pierwszą wizytę”.
+
+Wskazówki:
+
+- Im konkretniej opiszesz problem, tym lepszy wynik. „Guzek tarczycy 14 mm w USG” da więcej niż „coś z tarczycą”.
+- Jeśli masz skierowanie, napisz do kogo i czy jest na nim dopisek „pilne”.
+- Nie musisz podawać imienia, nazwiska ani numeru PESEL — asystent ich nie potrzebuje.
+- Terminy i ceny zawsze potwierdź telefonicznie w rejestracji.
+
+**W nagłej sytuacji nie szukaj lekarza przez asystenta — dzwoń pod 112.** Jeśli opiszesz niepokojące objawy, asystent sam przerwie i skieruje Cię na SOR.
+
 ## Co jest w środku
 
 ```
