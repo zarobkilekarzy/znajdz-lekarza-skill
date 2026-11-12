@@ -1,5 +1,7 @@
 # Znajdź lekarza — skill dla asystentów AI
 
+![Starsza osoba siedzi przy laptopie, a mały robot wskazuje palcem ekran; na biurku leży stetoskop.](docs/znajdz-lekarza.jpg)
+
 Zestaw instrukcji (skill), dzięki któremu asystent AI pomaga znaleźć w Polsce lekarza specjalistę dopasowanego do konkretnego problemu zdrowotnego.
 
 Asystent z tym skillem:
