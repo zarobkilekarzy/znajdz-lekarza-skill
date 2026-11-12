@@ -5,7 +5,7 @@ license: MIT
 compatibility: Wymaga dostępu do internetu — narzędzia do wyszukiwania i czytania stron albo polecenia curl.
 metadata:
   jezyk: pl
-  wersja: "1.0"
+  wersja: "1.0.0"
 ---
 
 # Znajdź lekarza

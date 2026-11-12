@@ -1,0 +1,28 @@
+name: Wydanie
+
+# Po wypchnięciu znacznika wersji (np. v1.0.0) pakuje folder skilla do ZIP
+# i publikuje go jako wydanie. Stały adres najnowszej paczki:
+# https://github.com/zarobkilekarzy/znajdz-lekarza-skill/releases/latest/download/znajdz-lekarza.zip
+
+on:
+  push:
+    tags: ['v*']
+
+permissions:
+  contents: write
+
+jobs:
+  wydanie:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Sprawdź, czy wersja w SKILL.md zgadza się ze znacznikiem
+        run: |
+          wersja="$(sed -n 's/^  wersja: "\(.*\)"$/\1/p' znajdz-lekarza/SKILL.md)"
+          test "v$wersja" = "$GITHUB_REF_NAME" || { echo "SKILL.md: $wersja, znacznik: $GITHUB_REF_NAME"; exit 1; }
+      - name: Spakuj skill
+        run: zip -r -X znajdz-lekarza.zip znajdz-lekarza -x '*.DS_Store'
+      - name: Opublikuj wydanie
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh release create "$GITHUB_REF_NAME" znajdz-lekarza.zip --title "$GITHUB_REF_NAME" --generate-notes

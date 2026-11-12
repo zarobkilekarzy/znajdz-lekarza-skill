@@ -15,23 +15,50 @@ Skill nie stawia diagnozy, nie zaleca leczenia i nie rezerwuje wizyt.
 
 ## Instalacja
 
-Skill to zwykły folder z plikami tekstowymi. **Nie wymaga instalowania żadnych programów** — działa tak samo w Windows, macOS i Linuksie.
+Skill to folder z plikami tekstowymi. **Nie wymaga instalowania żadnych programów** i działa tak samo w Windows, macOS i Linuksie. Wybierz jeden sposób.
 
-1. Pobierz to repozytorium (zielony przycisk **Code → Download ZIP**) i rozpakuj.
-2. Skopiuj folder `znajdz-lekarza` do katalogu skilli swojego asystenta:
+### Sposób 1 — poproś asystenta (najprostszy)
+
+Dla asystentów, które mają dostęp do plików na Twoim komputerze: Claude Code, Codex, Gemini CLI, Cursor i podobnych. Wklej do rozmowy:
+
+```
+Zainstaluj skill „znajdz-lekarza”. Pobierz plik
+https://github.com/zarobkilekarzy/znajdz-lekarza-skill/releases/latest/download/znajdz-lekarza.zip
+i rozpakuj folder znajdz-lekarza do swojego katalogu skilli użytkownika
+(tak, żeby plik SKILL.md leżał w <katalog skilli>/znajdz-lekarza/SKILL.md).
+Niczego innego nie instaluj. Na koniec potwierdź, gdzie leży skill i czy go widzisz.
+```
+
+Asystent zapyta o zgodę na pobranie pliku — to jedyne, co trzeba zatwierdzić. Potem zacznij nową rozmowę.
+
+### Sposób 2 — aplikacja Claude i claude.ai
+
+1. Pobierz **[znajdz-lekarza.zip](https://github.com/zarobkilekarzy/znajdz-lekarza-skill/releases/latest/download/znajdz-lekarza.zip)**. Nie rozpakowuj.
+2. W aplikacji otwórz **Ustawienia → Możliwości → Skille** i prześlij pobrany plik.
+3. Włącz skill na liście.
+
+### Sposób 3 — ręcznie
+
+1. Pobierz **[znajdz-lekarza.zip](https://github.com/zarobkilekarzy/znajdz-lekarza-skill/releases/latest/download/znajdz-lekarza.zip)** i rozpakuj. Dostaniesz folder `znajdz-lekarza`.
+2. Przenieś ten folder do katalogu skilli swojego asystenta:
 
 | Asystent | Katalog |
 |---|---|
 | Claude Code | `~/.claude/skills/` |
-| Claude (aplikacja i claude.ai) | Ustawienia → Możliwości → Skille → prześlij folder `znajdz-lekarza` spakowany do ZIP |
 | Codex | `~/.agents/skills/` |
-| inne narzędzia zgodne z [Agent Skills](https://agentskills.io) (m.in. Gemini CLI, Cursor) | według dokumentacji narzędzia — szukaj hasła „skills” |
+| inne narzędzia zgodne z [Agent Skills](https://agentskills.io) | według dokumentacji narzędzia — szukaj hasła „skills” |
 
-W Windows znak `~` oznacza folder użytkownika, np. `C:\Users\Anna`. Katalogi mogą się zmieniać między wersjami narzędzi. Po skopiowaniu zapytaj asystenta: „Jakie masz skille?” — jeśli nie wymieni `znajdz-lekarza`, sprawdź w jego dokumentacji, gdzie trzyma skille.
+Znak `~` oznacza Twój folder domowy: w Windows np. `C:\Users\Anna`, w macOS `/Users/anna`. Jeśli katalogu `skills` jeszcze nie ma, utwórz go.
 
-3. Napisz do asystenta zwykłym zdaniem, np. „Szukam dobrego endokrynologa w Krakowie, mam guzek tarczycy”.
+### Sprawdź, czy działa
+
+Zacznij nową rozmowę i zapytaj: „Jakie masz skille?”. Asystent powinien wymienić `znajdz-lekarza`. Jeśli nie wymienia, folder leży w złym miejscu — sprawdź w dokumentacji asystenta, gdzie trzyma skille.
 
 Asystent musi mieć dostęp do internetu (wyszukiwanie i czytanie stron).
+
+### Aktualizacja
+
+Powtórz instalację — nowa wersja zastąpi starą. Lista wersji i zmian: [Wydania](https://github.com/zarobkilekarzy/znajdz-lekarza-skill/releases).
 
 ## Jak używać
 
