@@ -35,7 +35,13 @@ Asystent musi mieć dostęp do internetu (wyszukiwanie i czytanie stron).
 
 ## Jak używać
 
-Nie trzeba znać żadnych poleceń. Napisz, z czym szukasz lekarza i gdzie mieszkasz:
+Wpisz w rozmowie komendę `/znajdz-lekarza` i dopisz, z czym szukasz lekarza i gdzie mieszkasz, na przykład:
+
+```
+/znajdz-lekarza endokrynolog w Krakowie, mam guzek tarczycy
+```
+
+Komenda nie jest konieczna — asystent sięgnie po skill także wtedy, gdy napiszesz zwykłym zdaniem:
 
 - „Szukam dobrego endokrynologa w Krakowie, mam guzek tarczycy.”
 - „Do kogo pójść z nawracającym bólem barku po urazie? Jestem z Lublina.”
