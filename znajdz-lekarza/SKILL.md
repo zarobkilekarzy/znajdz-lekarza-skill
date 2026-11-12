@@ -5,7 +5,7 @@ license: MIT
 compatibility: Wymaga dostępu do internetu — narzędzia do wyszukiwania i czytania stron albo polecenia curl.
 metadata:
   jezyk: pl
-  wersja: "1.0.0"
+  wersja: "1.1.0"
 ---
 
 # Znajdź lekarza
@@ -114,28 +114,27 @@ Podaj **3–5 lekarzy**, od najlepiej dopasowanego. Każdy lekarz ma w odpowiedz
 - imię, nazwisko, tytuł, specjalizacje,
 - **kim jest** — 2–3 zdania opisu: czym się zajmuje na co dzień, gdzie pracuje, od jak dawna, co go wyróżnia w tym problemie,
 - **dlaczego pasuje** — konkretne dowody doświadczenia, każdy z linkiem,
-- **oceny** — osobno ZnanyLekarz i Google: średnia, liczba opinii, czego dotyczą (zasady niżej),
+- **oceny** — z co najmniej dwóch źródeł: średnia ze skalą, liczba opinii, czego dotyczą (zasady niżej),
 - **gdzie przyjmuje** — każda placówka z opisem i własnymi ocenami (zasady niżej),
 - **czego nie udało się potwierdzić**,
 - jak się umówić (telefon rejestracji, link do rezerwacji, czy potrzebne skierowanie).
 
 **Opis placówki** (przy lekarzu i przy poradniach NFZ) to 1–2 zdania, nie sama nazwa: pełna nazwa, adres, rodzaj (szpital kliniczny, poradnia przyszpitalna, sieciowe centrum medyczne, prywatna klinika specjalistyczna, gabinet indywidualny), co jest na miejscu (np. USG, biopsja, rezonans, blok operacyjny), NFZ czy prywatnie, cena, jeśli jest znana.
 
-**Oceny podajesz zawsze, z dwóch źródeł, z nazwą źródła:**
+**Oceny podajesz zawsze, z co najmniej dwóch niezależnych źródeł, z nazwą źródła.** Skąd je brać, także bez przeglądarki: [references/opinie.md](references/opinie.md).
 
-- **ZnanyLekarz** — lekarz: średnia i liczba opinii z profilu; placówka: średnia i liczba opinii ze strony `/placowki/…`.
-- **Google** — ocena wizytówki placówki (i gabinetu lekarza, jeśli ma własną): średnia i liczba opinii. Jak ją odczytać: [references/ocena.md](references/ocena.md).
-- Zapis: „ZnanyLekarz: 4,9 (247 opinii) · Google: 4,6 (1 320 opinii, placówka)”.
-- Gdy oceny nie da się odczytać, napisz „Google: nie udało się odczytać” i daj link, pod którym osoba zobaczy ją jednym kliknięciem. **Nigdy nie wpisuj oceny z pamięci ani szacunkowej.**
+- Źródła, które da się czytać zwykłym pobraniem strony: ZnanyLekarz, Kliniki.pl, RankingLekarzy.pl, swiatprzychodni.pl. Ocenę Google podaj, jeśli masz narzędzie, które ją pokazuje, albo za stroną placówki w Kliniki.pl; w przeciwnym razie „Google: nie odczytano” i link do wizytówki. Źródło z mniej niż 5 opiniami nie liczy się jako drugie.
+- Zapis: „ZnanyLekarz: 4,9/5 (247 opinii) · RankingLekarzy.pl: 4,8/5 (31 opinii) · Google: 4,6/5 (451 ocen, placówka, za Kliniki.pl)”. Skal nie przeliczaj i nie uśredniaj.
+- Jeśli znalazłeś tylko jedno źródło albo żadnego, napisz to i wymień, gdzie szukałeś. **Nigdy nie wpisuj oceny z pamięci ani szacunkowej.**
 - Oceny pomagają wybrać między podobnymi kandydatami; kolejność listy nadal wyznacza doświadczenie.
 
-Po liście lekarzy dodaj krótkie **porównanie w tabeli**: lekarz · dopasowanie do problemu (jednym zdaniem) · ocena ZnanyLekarz · ocena Google · najbliższy termin lub czas oczekiwania · cena. Ma pomóc wybrać jednym spojrzeniem.
+Po liście lekarzy dodaj krótkie **porównanie w tabeli**: lekarz · dopasowanie do problemu (jednym zdaniem) · oceny (źródło i skala przy każdej) · najbliższy termin lub czas oczekiwania · cena. Ma pomóc wybrać jednym spojrzeniem.
 
 Nigdy nie podawaj gołego linku. Zamiast „[profil](…)” napisz według wzoru: „<Nazwa poradni i szpitala>, <ulica i numer, miasto> — poradnia przyszpitalna, na NFZ ze skierowaniem, średnio <…> dni oczekiwania”.
 
 Na końcu dodaj:
 
-- przy ścieżce NFZ: 2–3 poradnie z najkrótszą kolejką — każda z opisem placówki, oceną Google, adresem, telefonem, średnim czasem oczekiwania i miesiącem, z którego są dane,
+- przy ścieżce NFZ: 2–3 poradnie z najkrótszą kolejką — każda z opisem placówki, oceną (swiatprzychodni.pl, Kliniki.pl albo Google), adresem, telefonem, średnim czasem oczekiwania i miesiącem, z którego są dane,
 - krótką informację, że lista powstała z publicznie dostępnych źródeł, nie zastępuje porady lekarskiej, a terminy i ceny trzeba potwierdzić w rejestracji,
 - propozycję następnego kroku: poszerzyć obszar, zmienić ścieżkę (NFZ ↔ prywatnie) albo przygotować listę pytań na pierwszą wizytę.
 

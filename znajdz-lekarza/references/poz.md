@@ -32,7 +32,7 @@ Publicznego rankingu jakości przychodni POZ nie ma. Powiedz to osobie i oceniaj
 | teleporady i wizyty domowe | strona przychodni, opinie |
 | na miejscu: punkt pobrań, EKG, USG, szczepienia, gabinet zabiegowy | strona przychodni |
 | czy przyjmuje nowych pacjentów | **tylko telefon do rejestracji** — zaznacz to |
-| opinie o organizacji: dodzwonienie się, czas oczekiwania na wizytę, kontakt z lekarzem | ZnanyLekarz, wizytówka Google |
+| opinie o organizacji: dodzwonienie się, czas oczekiwania na wizytę, kontakt z lekarzem | swiatprzychodni.pl, ZnanyLekarz, Kliniki.pl ([opinie.md](opinie.md)) |
 
 Przy POZ opinie o **organizacji** (rejestracja, terminy, dostępność) są ważniejsze niż przy specjaliście — to z nimi osoba będzie miała do czynienia najczęściej.
 
@@ -51,7 +51,7 @@ Podaj **2–4 przychodnie** (nie pojedynczych lekarzy), od najlepiej dopasowanej
 - opis: kto ją prowadzi (publiczna, sieć, mała praktyka), ilu lekarzy, co jest na miejscu,
 - czy ma opiekę koordynowaną (tak / nie / nie udało się potwierdzić),
 - rejestracja, godziny, teleporady, wizyty domowe,
-- oceny: ZnanyLekarz i Google, z liczbą opinii i tym, czego dotyczą,
+- oceny z co najmniej dwóch źródeł (dla przychodni na NFZ najpierw swiatprzychodni.pl — zob. [opinie.md](opinie.md)), z liczbą opinii i tym, czego dotyczą,
 - lekarze, których warto wskazać w deklaracji — jeśli są podstawy (specjalizacja, opinie),
 - czego nie udało się potwierdzić,
 - telefon do rejestracji i przypomnienie, żeby zapytać, czy przychodnia przyjmuje nowych pacjentów.

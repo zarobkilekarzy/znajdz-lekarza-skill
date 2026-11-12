@@ -45,28 +45,7 @@ Brak profilu i opinii **nie obniża oceny** lekarza pracującego w ośrodku refe
 
 ## Skąd brać oceny
 
-W odpowiedzi podajesz oceny z **obu** źródeł, zawsze z nazwą źródła i liczbą opinii.
-
-**ZnanyLekarz**
-
-- lekarz: średnia i liczba opinii z profilu (w surowym HTML: `aggregateRating.ratingValue` i `reviewCount` w bloku `Physician`),
-- placówka: to samo ze strony `/placowki/…` (blok `MedicalClinic`).
-
-**Google (wizytówka w Mapach Google)**
-
-Ocena dotyczy zwykle **placówki, nie lekarza** — napisz to przy liczbie. Lekarz z własnym gabinetem bywa osobną wizytówką.
-
-1. Wyszukaj: `<pełna nazwa placówki> <ulica> <miasto> opinie` albo `<imię nazwisko> <specjalizacja> <miasto> opinie Google`.
-2. Odczytaj średnią i liczbę opinii z wizytówki lub z wyniku wyszukiwania. Sprawdź, czy **nazwa i adres** zgadzają się z placówką — sieci medyczne mają wiele oddziałów o podobnych nazwach, a każdy ma własną ocenę.
-3. Jeśli twoje narzędzie nie pokazuje oceny albo nie masz pewności, której placówki dotyczy — napisz „nie udało się odczytać” i podaj link: `https://www.google.com/maps/search/?api=1&query=<nazwa+placówki+miasto>`.
-
-To jedyny wyjątek od zasady „streszczenie z wyszukiwarki nie jest źródłem”: ocenę i liczbę opinii wolno wziąć z wyniku wyszukiwania, jeśli nazwa i adres wizytówki są jednoznaczne. Ocen nie wolno zaokrąglać w górę, uśredniać między źródłami ani podawać z pamięci.
-
-Jak je czytać:
-
-- duża różnica między źródłami (np. ZnanyLekarz 5,0, Google 3,4) to informacja — powiedz o niej i sprawdź, czego dotyczą niskie oceny (często rejestracja i czas oczekiwania, nie leczenie),
-- ocena z kilku opinii znaczy niewiele; podawaj liczbę opinii zawsze obok średniej,
-- duże szpitale mają zwykle niższe oceny w Google niż prywatne gabinety — dotyczą całego szpitala, nie poradni ani lekarza.
+Źródła, drabinka narzędzi i sposób zapisu: [opinie.md](opinie.md). W skrócie: co najmniej dwa niezależne źródła, każde z nazwą, skalą i liczbą opinii; Google tylko wtedy, gdy masz narzędzie, które pokazuje wizytówkę.
 
 ## Koszt (ok. 10%)
 
@@ -96,15 +75,15 @@ Szukałem: <specjalizacja>, <wąska dziedzina>, <miejscowość i zasięg>, <NFZ 
    - <dowód 1> (źródło: <nazwa strony z linkiem>)
    - <dowód 2> (źródło: …)
 
-   Oceny lekarza: ZnanyLekarz: <średnia> (<liczba> opinii) · Google: <średnia>
-   (<liczba> opinii) albo „nie udało się odczytać” + link.
+   Oceny lekarza: <źródło 1>: <średnia/skala> (<liczba> opinii) · <źródło 2>: <średnia/skala>
+   (<liczba> opinii) · Google: <średnia> (<liczba>) albo „nie odczytano” + link.
    Co piszą pacjenci o podobnym problemie: <1–2 zdania własnymi słowami>.
 
    Gdzie przyjmuje:
    - <Pełna nazwa placówki>, <ulica, dzielnica, miasto>.
      <Opis: rodzaj placówki, co jest na miejscu, 1–2 zdania>.
      <NFZ ze skierowaniem / prywatnie, wizyta od … zł>.
-     Oceny placówki: ZnanyLekarz: <…> (<…> opinii) · Google: <…> (<…> opinii).
+     Oceny placówki: <źródło 1>: <…/skala> (<…> opinii) · <źródło 2>: <…/skala> (<…> opinii).
      <link do rejestracji lub profilu>
    - <druga placówka, tak samo>
 
@@ -115,13 +94,13 @@ Szukałem: <specjalizacja>, <wąska dziedzina>, <miejscowość i zasięg>, <NFZ 
 
 Porównanie:
 
-| Lekarz | Dopasowanie do problemu | ZnanyLekarz | Google | Termin / czas oczekiwania | Cena |
-|---|---|---|---|---|---|
-| <nazwisko> | <jedno zdanie> | <4,9 (247)> | <4,6 (1 320), placówka> | <…> | <…> |
+| Lekarz | Dopasowanie do problemu | Oceny | Termin / czas oczekiwania | Cena |
+|---|---|---|---|---|
+| <nazwisko> | <jedno zdanie> | <ZnanyLekarz 4,9/5 (247) · Kliniki.pl 9,5/10 (2 417), placówka> | <…> | <…> |
 
 Poradnie na NFZ z najkrótszą kolejką (dane NFZ za <miesiąc>):
 - <Poradnia, świadczeniodawca>, <adres>, tel. <…>.
-  <Opis: rodzaj placówki, 1 zdanie>. Google: <średnia> (<liczba> opinii).
+  <Opis: rodzaj placówki, 1 zdanie>. Oceny: <źródło>: <średnia/skala> (<liczba> opinii).
   Średnio <…> dni, oczekuje <…> osób. <link do mapy>
 
 Na co zwrócić uwagę: <1–2 zdania, np. o skierowaniu, o tym, co zabrać na wizytę>.

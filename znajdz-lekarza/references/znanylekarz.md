@@ -27,7 +27,7 @@ Fragmenty adresu (slug) pisze się małymi literami, bez polskich znaków, ze sp
 | profil lekarza | adres **zawsze z listy albo z wyników wyszukiwania** | `https://www.znanylekarz.pl/profil/…` |
 | profil placówki | `/placowki/<nazwa>` | `https://www.znanylekarz.pl/placowki/…` |
 
-**Adresu profilu nie składaj z imienia i nazwiska.** Lekarze o tym samym nazwisku mają adresy z dopiskiem (`-2`, `-3`), więc złożony adres może prowadzić do innej osoby. Po otwarciu profilu sprawdź, czy imię, nazwisko, specjalizacja i miasto zgadzają się z kandydatem.
+Profil znaleziony w wyszukiwarce może mieć adres `/<imie-nazwisko>/<specjalizacja>/<miasto>` zamiast `/profil/…` — to ten sam profil. **Adresu profilu nie składaj z imienia i nazwiska.** Lekarze o tym samym nazwisku mają adresy z dopiskiem (`-2`, `-3`), więc złożony adres może prowadzić do innej osoby. Po otwarciu profilu sprawdź, czy imię, nazwisko, specjalizacja i miasto zgadzają się z kandydatem.
 
 Jeśli nie znasz sluga choroby lub usługi, nie zgaduj w kółko: wejdź na listę specjalizacji, otwórz jeden profil i weź slug z sekcji „Choroby” (linki `/choroby/<slug>`), albo znajdź go wyszukiwarką internetową: `site:znanylekarz.pl/choroby <nazwa choroby>`.
 
