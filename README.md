@@ -9,7 +9,7 @@ Asystent z tym skillem:
 3. **Dobiera typ specjalisty i wąską dziedzinę**, w której lekarz powinien mieć doświadczenie.
 4. **Szuka kandydatów** w wyszukiwarce internetowej, na publicznych stronach ZnanyLekarz i w oficjalnych danych NFZ o terminach leczenia.
 5. **Ocenia przede wszystkim doświadczenie** w podobnych przypadkach. Oceny pacjentów bierze pod uwagę, ale nie są najważniejsze.
-6. **Podaje 3–5 lekarzy** z uzasadnieniem, linkami do źródeł, opisem każdej placówki i informacją, czego nie udało się potwierdzić.
+6. **Podaje 3–5 lekarzy** — przy każdym krótki opis lekarza i placówek, oceny z ZnanyLekarz i Google, uzasadnienie z linkami do źródeł, tabela porównawcza i informacja, czego nie udało się potwierdzić.
 
 Skill nie stawia diagnozy, nie zaleca leczenia i nie rezerwuje wizyt.
 
@@ -46,7 +46,7 @@ Co będzie dalej:
 
 1. **Asystent zada kilka pytań** — od kiedy trwa problem, co już zrobiono, jak daleko możesz dojechać, jak pilnie, NFZ czy prywatnie. Odpowiadaj krótko; jeśli czegoś nie wiesz, napisz to.
 2. **Powie, kogo będzie szukać** (np. „ortopeda zajmujący się artroskopią barku”) i poprosi o potwierdzenie. Tu możesz go poprawić.
-3. **Poszuka i poda 3–5 lekarzy.** Przy każdym: dlaczego pasuje, gdzie przyjmuje, ile kosztuje wizyta albo ile się czeka na NFZ, i jak się umówić. Trwa to zwykle kilka minut.
+3. **Poszuka i poda 3–5 lekarzy.** Przy każdym: kim jest, dlaczego pasuje, oceny z ZnanyLekarz i Google, opis placówek, w których przyjmuje, ile kosztuje wizyta albo ile się czeka na NFZ, i jak się umówić. Na końcu tabela porównawcza. Trwa to zwykle kilka minut.
 
 Potem możesz poprosić o więcej: „poszerz szukanie na całe województwo”, „pokaż tylko NFZ”, „przygotuj pytania na pierwszą wizytę”.
 

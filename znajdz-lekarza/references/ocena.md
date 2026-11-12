@@ -43,6 +43,31 @@ Przy sprawie pilnej zwiększ wagę dostępności kosztem pozostałych.
 
 Brak profilu i opinii **nie obniża oceny** lekarza pracującego w ośrodku referencyjnym. Zaznacz tylko, że opinii nie znaleziono.
 
+## Skąd brać oceny
+
+W odpowiedzi podajesz oceny z **obu** źródeł, zawsze z nazwą źródła i liczbą opinii.
+
+**ZnanyLekarz**
+
+- lekarz: średnia i liczba opinii z profilu (w surowym HTML: `aggregateRating.ratingValue` i `reviewCount` w bloku `Physician`),
+- placówka: to samo ze strony `/placowki/…` (blok `MedicalClinic`).
+
+**Google (wizytówka w Mapach Google)**
+
+Ocena dotyczy zwykle **placówki, nie lekarza** — napisz to przy liczbie. Lekarz z własnym gabinetem bywa osobną wizytówką.
+
+1. Wyszukaj: `<pełna nazwa placówki> <ulica> <miasto> opinie` albo `<imię nazwisko> <specjalizacja> <miasto> opinie Google`.
+2. Odczytaj średnią i liczbę opinii z wizytówki lub z wyniku wyszukiwania. Sprawdź, czy **nazwa i adres** zgadzają się z placówką — sieci medyczne mają wiele oddziałów o podobnych nazwach, a każdy ma własną ocenę.
+3. Jeśli twoje narzędzie nie pokazuje oceny albo nie masz pewności, której placówki dotyczy — napisz „nie udało się odczytać” i podaj link: `https://www.google.com/maps/search/?api=1&query=<nazwa+placówki+miasto>`.
+
+To jedyny wyjątek od zasady „streszczenie z wyszukiwarki nie jest źródłem”: ocenę i liczbę opinii wolno wziąć z wyniku wyszukiwania, jeśli nazwa i adres wizytówki są jednoznaczne. Ocen nie wolno zaokrąglać w górę, uśredniać między źródłami ani podawać z pamięci.
+
+Jak je czytać:
+
+- duża różnica między źródłami (np. ZnanyLekarz 5,0, Google 3,4) to informacja — powiedz o niej i sprawdź, czego dotyczą niskie oceny (często rejestracja i czas oczekiwania, nie leczenie),
+- ocena z kilku opinii znaczy niewiele; podawaj liczbę opinii zawsze obok średniej,
+- duże szpitale mają zwykle niższe oceny w Google niż prywatne gabinety — dotyczą całego szpitala, nie poradni ani lekarza.
+
 ## Koszt (ok. 10%)
 
 - cena pierwszej wizyty i wizyt kontrolnych,
@@ -64,29 +89,48 @@ Szukałem: <specjalizacja>, <wąska dziedzina>, <miejscowość i zasięg>, <NFZ 
 
 1. dr n. med. Imię Nazwisko — endokrynolog, diabetolog
 
+   Kim jest: <2–3 zdania: czym się zajmuje, gdzie pracuje i od kiedy,
+   co go wyróżnia w tym problemie>.
+
    Dlaczego pasuje:
    - <dowód 1> (źródło: <nazwa strony z linkiem>)
    - <dowód 2> (źródło: …)
 
+   Oceny lekarza: ZnanyLekarz: <średnia> (<liczba> opinii) · Google: <średnia>
+   (<liczba> opinii) albo „nie udało się odczytać” + link.
+   Co piszą pacjenci o podobnym problemie: <1–2 zdania własnymi słowami>.
+
    Gdzie przyjmuje:
-   - <Pełna nazwa placówki>, <ulica, dzielnica, miasto> — <rodzaj placówki>;
-     <NFZ ze skierowaniem / prywatnie, wizyta od … zł>. <link do rejestracji lub profilu>
+   - <Pełna nazwa placówki>, <ulica, dzielnica, miasto>.
+     <Opis: rodzaj placówki, co jest na miejscu, 1–2 zdania>.
+     <NFZ ze skierowaniem / prywatnie, wizyta od … zł>.
+     Oceny placówki: ZnanyLekarz: <…> (<…> opinii) · Google: <…> (<…> opinii).
+     <link do rejestracji lub profilu>
    - <druga placówka, tak samo>
 
-   Opinie: <liczba> opinii, średnia <…>; <co pacjenci piszą o podobnym problemie>.
    Nie udało się potwierdzić: <np. czy wykonuje biopsję na miejscu>.
    Jak się umówić: <telefon rejestracji / rezerwacja online / potrzebne skierowanie>.
 
 2. …
 
+Porównanie:
+
+| Lekarz | Dopasowanie do problemu | ZnanyLekarz | Google | Termin / czas oczekiwania | Cena |
+|---|---|---|---|---|---|
+| <nazwisko> | <jedno zdanie> | <4,9 (247)> | <4,6 (1 320), placówka> | <…> | <…> |
+
 Poradnie na NFZ z najkrótszą kolejką (dane NFZ za <miesiąc>):
-- <Poradnia, świadczeniodawca>, <adres>, tel. <…> — średnio <…> dni, oczekuje <…> osób. <link do mapy>
+- <Poradnia, świadczeniodawca>, <adres>, tel. <…>.
+  <Opis: rodzaj placówki, 1 zdanie>. Google: <średnia> (<liczba> opinii).
+  Średnio <…> dni, oczekuje <…> osób. <link do mapy>
 
 Na co zwrócić uwagę: <1–2 zdania, np. o skierowaniu, o tym, co zabrać na wizytę>.
 
 Lista powstała z publicznie dostępnych źródeł i nie zastępuje porady lekarskiej.
 Terminy i ceny potwierdź w rejestracji.
 ```
+
+Żadnej pozycji nie pomijaj. Jeśli czegoś nie ma — wpisz „brak danych” albo „nie udało się odczytać”, żeby osoba widziała, że to sprawdzono.
 
 Opis placówki zawsze stoi **przed** linkiem i mówi, co to za miejsce. Samo „profil” albo „strona” jako tekst linku jest niedopuszczalne.
 
