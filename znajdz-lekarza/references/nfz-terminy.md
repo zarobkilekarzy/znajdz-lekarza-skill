@@ -62,7 +62,11 @@ GET /queues?case=1&province=06&benefit=<NAZWA>&locality=<MIEJSCOWOŚĆ>&limit=25
 | `limit` | najwyżej 25 |
 | `page` | numer strony; adres następnej strony jest w `links.next` |
 
-Polskie znaki i spacje w adresie zakoduj (w `curl`: opcje `-G --data-urlencode`).
+**Polskie znaki w zapytaniu.** `benefit` i `locality` dopasowują fragment, więc najbezpieczniej podać **fragment bez polskich liter**: `ZAKRESU ENDOKRYNOLOGII` zamiast `ŚWIADCZENIA Z ZAKRESU ENDOKRYNOLOGII`, `KRAK` zamiast `KRAKÓW`, `GDA` zamiast `GDAŃSK`. Wynik jest ten sam. Jeśli fragmentu bez polskich liter nie da się ułożyć, zakoduj znaki procentowo w UTF-8 (np. `Ł` = `%C5%81`, `Ó` = `%C3%93`, `Ś` = `%C5%9A`, `Ź` = `%C5%B9`, `Ż` = `%C5%BB`, spacja = `%20`). **Nie wpisuj polskich liter wprost w poleceniu `curl`** — w Windows trafiają do API w złym kodowaniu i zapytanie zwraca zero wyników.
+
+Po każdym zapytaniu sprawdź w odpowiedzi pole `benefit` i `locality`: jeśli fragment złapał coś innego, niż chciałeś (np. `KRAK` nie tylko Kraków), zawęź go.
+
+**Zero wyników nie znaczy „brak poradni”.** Zanim to powiesz, powtórz zapytanie bez `locality` (całe województwo) i sprawdź nazwę w `/benefits`.
 
 Kody województw:
 
@@ -97,7 +101,7 @@ Kody województw:
 | `statistics.provider-data.update` | miesiąc, którego dotyczą statystyki |
 | `dates` | pierwszy wolny termin; **w testach z listopada 2026 r. pole było puste we wszystkich wynikach** |
 
-Wyniki są ułożone od najkrótszego czasu oczekiwania. `meta.count` bywa większe niż jedna strona — kolejne strony pobieraj tylko wtedy, gdy na pierwszej nie ma miejsc w zasięgu osoby.
+Wyniki są ułożone rosnąco według `average-period` (sprawdzone na trzech kolejnych stronach w listopadzie 2026 r.); wpisy bez statystyk stoją w dowolnym miejscu. Nie zakładaj tej kolejności na ślepo — przy wyborze porównaj `average-period` sam. `meta.count` to łączna liczba wyników; gdy jest większa niż 25, kolejne strony pobieraj tylko wtedy, gdy na pierwszej nie ma miejsc w zasięgu osoby.
 
 Jeśli `dates` jest puste, opieraj się na `average-period` i `awaiting` i napisz wprost, że to średnia z danego miesiąca, a nie data pierwszego wolnego terminu. Jeśli `dates` ma wartość, podaj ją razem z dniem, z którego pochodzi.
 
@@ -142,16 +146,16 @@ Potem sprawdź na stronie placówki albo wyszukiwarką internetową, **którzy l
 
 ## Przykłady przez curl
 
-Działają tak samo w macOS, Linuksie i Windows 10/11 (w PowerShell wpisz `curl.exe` zamiast `curl`). Nic nie trzeba instalować.
+Działają tak samo w macOS, Linuksie i Windows 10/11 (w PowerShell wpisz `curl.exe` zamiast `curl`). Nic nie trzeba instalować. Adresy zawierają wyłącznie znaki ASCII.
 
 Słownik:
 
 ```
-curl -s -G "https://api.nfz.gov.pl/app-itl-api/benefits" --data-urlencode "name=endokrynolog" -d "limit=25&format=json&api-version=1.3"
+curl -s "https://api.nfz.gov.pl/app-itl-api/benefits?name=endokrynolog&limit=25&format=json&api-version=1.3"
 ```
 
 Kolejki w Krakowie, przypadek stabilny:
 
 ```
-curl -s -G "https://api.nfz.gov.pl/app-itl-api/queues" --data-urlencode "benefit=ŚWIADCZENIA Z ZAKRESU ENDOKRYNOLOGII" --data-urlencode "locality=KRAKÓW" -d "case=1&province=06&limit=25&format=json&api-version=1.3"
+curl -s "https://api.nfz.gov.pl/app-itl-api/queues?case=1&province=06&benefit=ZAKRESU%20ENDOKRYNOLOGII&locality=KRAK&limit=25&format=json&api-version=1.3"
 ```

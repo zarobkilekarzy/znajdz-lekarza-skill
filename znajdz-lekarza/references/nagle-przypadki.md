@@ -12,24 +12,30 @@ Nie oceniaj, czy „to na pewno nic poważnego”. W razie wątpliwości traktuj
 
 ## Jak znaleźć najbliższy SOR
 
-**Sposób 1 — dane mapy SOR (zalecany).** Dwa pliki JSON, dostępne bez klucza:
-
-| Plik | Adres | Zawartość |
-|---|---|---|
-| lista oddziałów | `https://zarobkilekarzy.pl/prawa-pacjenta/sor/dane.json` | `rows[]`: `key` (identyfikator SOR, napis w rodzaju `000000007192-080`), `title` (nazwa szpitala), `city`, `region` (województwo) |
-| stan teraz | `https://dane.zarobkilekarzy.pl/sor/teraz.json` | `aktualizacja`, `etapy` (7 nazw), `sor["<key>"]`: `w` — liczba wszystkich pacjentów na SOR, `e` — 7 par `[liczba osób, "czas oczekiwania"]` w kolejności `etapy`; zamiast tego może być `blad` |
+**Sposób 1 — lista SOR dołączona do skilla (zalecany).** Plik [assets/sor.csv](../assets/sor.csv) zawiera wszystkie 250 szpitalnych oddziałów ratunkowych w Polsce (źródło: pacjent.gov.pl, stan na 24.09.2026). Kolumny rozdzielone średnikiem: `id`, `wojewodztwo`, `miasto`, `szpital`, `adres`, `lat`, `lng`. Nie wymaga internetu.
 
 Postępowanie:
 
-1. Z `dane.json` wybierz oddziały z miejscowości osoby — porównuj **całą nazwę miasta** (`city`) i województwo, nie fragment: „Radom” to nie „Radomsko”; jeśli ich nie ma — z tego samego województwa, najbliższe geograficznie (oceń po nazwach miast; w razie wątpliwości podaj 2–3).
-2. Dla każdego odczytaj z `teraz.json` wpis o tym samym identyfikatorze: ilu pacjentów jest teraz na oddziale (`w`) i jaki jest czas oczekiwania dla priorytetu średniego (`e[4]`) i niskiego (`e[5]`, licząc od zera). Czas jest tekstem („32 min”, „powyżej 2 godzin”); „-” przy zerze osób znaczy, że nikt w tej grupie nie czeka.
-3. Podaj nazwę szpitala, miasto i bieżący stan. Adres dokładny i dojazd: link do map, np. `https://www.google.com/maps/search/?api=1&query=SOR+<nazwa szpitala>+<miasto>`.
+1. Znajdź wiersze, w których `miasto` jest **dokładnie** miejscowością osoby („Radom” to nie „Radomsko”). Jeśli są — to najbliższe oddziały; podaj wszystkie.
+2. Jeśli miejscowość nie ma SOR, porównaj odległości po współrzędnych. Weź współrzędne miejscowości osoby (jeśli ich nie znasz na pewno — zapytaj o najbliższe większe miasto albo powiat) i dla oddziałów z tego **i sąsiednich województw** policz przybliżoną odległość: różnica `lat` × 111 km oraz różnica `lng` × 68 km, z obu pierwiastek sumy kwadratów. Granica województwa nie ma znaczenia — liczy się odległość.
+3. Podaj **2–3 najbliższe** oddziały: nazwę szpitala (pisaną normalnie, nie wielkimi literami), adres, miasto i przybliżoną odległość w linii prostej. Zaznacz, że to odległość w linii prostej, a dojazd pokaże mapa.
+4. Link do nawigacji zbuduj ze współrzędnych: `https://www.google.com/maps/search/?api=1&query=<lat>,<lng>`.
 
-Źródłem danych o kolejkach jest państwowy system TOPSOR (pacjent.gov.pl); odświeżają się co ok. 10 minut. Część oddziałów bywa chwilowo bez odczytu — wtedy napisz „brak bieżących danych”.
+Jeśli nie możesz pewnie ustalić położenia osoby, nie zgaduj: powiedz, że **dyspozytor numeru 112 wskaże i wyśle pomoc**, i podaj mapę SOR.
+
+**Bieżąca kolejka (opcjonalnie, najwyżej jedno pobranie na rozmowę).** Tylko gdy dwa oddziały są podobnie blisko i osoba pyta, gdzie krócej się czeka. Plik `https://dane.zarobkilekarzy.pl/sor/teraz.json` (dane państwowego systemu TOPSOR, odświeżane co ok. 10 minut) ma pod kluczem `sor["<id>"]` (to samo `id` co w liście):
+
+- `w` — liczba wszystkich pacjentów na oddziale,
+- `e` — 7 par `[liczba osób, "czas oczekiwania"]`; priorytet średni to `e[4]`, niski `e[5]` (licząc od zera). Czas jest tekstem („32 min”, „powyżej 2 godzin”); „-” przy zerze osób znaczy, że nikt w tej grupie nie czeka,
+- zamiast tego może być `blad` — wtedy napisz „brak bieżących danych”.
+
+Nie pobieraj tego pliku wielokrotnie ani „na zapas”. Jeśli jest niedostępny, odeślij do mapy — pokazuje te same dane.
 
 **Sposób 2 — wyszukiwarka internetowa.** `SOR <miejscowość>` albo `szpitalny oddział ratunkowy <powiat>`. Sprawdź, czy wynik to SOR, a nie izba przyjęć.
 
 **Ważne przy wyborze**: przy zagrożeniu życia liczy się najbliższy SOR, nie najkrótsza kolejka. O kolejności przyjęcia decyduje triaż (ocena pilności), nie kolejność zgłoszeń — pacjent w ciężkim stanie jest przyjmowany od razu. Kolejkę porównuj tylko wtedy, gdy dwa oddziały są podobnie blisko.
+
+Lista w `assets/sor.csv` ma datę — oddziały rzadko, ale się zmieniają. Przy wątpliwości (np. osoba mówi, że SOR zamknięto) zaufaj osobie i mapie.
 
 Dzieci: jeśli w okolicy jest SOR dziecięcy albo szpital dziecięcy, wskaż go w pierwszej kolejności.
 

@@ -1,0 +1,251 @@
+id;wojewodztwo;miasto;szpital;adres;lat;lng
+000000001137-014;dolnośląskie;Bolesławiec;ZESPÓŁ OPIEKI ZDROWOTNEJ W BOLESŁAWCU;Jeleniogórska 4, 59-700;51.25449;15.56694
+000000001274-061;dolnośląskie;Głogów;GŁOGOWSKI SZPITAL POWIATOWY SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ;Kościuszki 15, 67-200;51.65474;16.08113
+000000001704-031;dolnośląskie;Jelenia Góra;WOJEWÓDZKIE CENTRUM SZPITALNE KOTLINY JELENIOGÓRSKIEJ;Ogińskiego 6, 58-506;50.91325;15.7635
+000000001953-017;dolnośląskie;Legnica;WOJEWÓDZKI SZPITAL SPECJALISTYCZNY W LEGNICY;Iwaszkiewicza 5, 59-220;51.20792;16.21665
+000000025802-079;dolnośląskie;Lubin;REGIONALNE CENTRUM ZDROWIA SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ;Gen.Józefa Bema 5/6, 59-300;51.40065;16.19794
+000000001273-053;dolnośląskie;Oława;ZESPÓŁ OPIEKI ZDROWOTNEJ W OŁAWIE;Baczyńskiego 1, 55-200;50.95222;17.28525
+000000019866-035;dolnośląskie;Polanica-Zdrój;SPECJALISTYCZNE CENTRUM MEDYCZNE IM. ŚW. JANA PAWŁA II SPÓŁKA AKCYJNA;Jana Pawła II 2, 57-320;50.40768;16.50189
+000000001084-023;dolnośląskie;Trzebnica;SZPITAL IM. ŚW. JADWIGI ŚLĄSKIEJ W TRZEBNICY;Prusicka 53-55, 55-100;51.31975;17.05915
+000000001389-012;dolnośląskie;Wałbrzych;SPECJALISTYCZNY SZPITAL IM. DRA ALFREDA SOKOŁOWSKIEGO;Sokołowskiego 4, 58-309;50.80167;16.27711
+000000018589-425;dolnośląskie;Wrocław;UNIWERSYTECKI SZPITAL KLINICZNY IM. JANA MIKULICZA-RADECKIEGO WE WROCŁAWIU;BOROWSKA 213, 50-556;51.07451;17.03102
+000000001344-011;dolnośląskie;Wrocław-Fabryczna;DOLNOŚLĄSKI SZPITAL SPECJALISTYCZNY IM. T. MARCINIAKA - CENTRUM MEDYCYNY RATUNKOWEJ;gen. Augusta Emila Fieldorfa 2, 54-049;51.14418;16.90753
+000000018521-001;dolnośląskie;Wrocław-Krzyki;4 WOJSKOWY SZPITAL KLINICZNY Z POLIKLINIKĄ SAMODZIELNY PUBLICZNY ZAKŁAD OPIEKI ZDROWOTNEJ WE WROCŁAWIU;Weigla 5, 50-981;51.07569;17.02167
+000000001316-085;dolnośląskie;Wrocław-Psie Pole;WOJEWÓDZKI SZPITAL SPECJALISTYCZNY WE WROCŁAWIU;Kamieńskiego 73a, 51-124;51.14831;17.04475
+000000001038-069;dolnośląskie;Zgorzelec;WIELOSPECJALISTYCZNY SZPITAL -SAMODZIELNY PUBLICZNY ZESPÓŁ OPIEKI ZDROWOTNEJ W ZGORZELCU;Lubańska 11/12, 59-900;51.15824;15.01132
+000000001735-115;dolnośląskie;Świdnica;SAMODZIELNY PUBLICZNY ZESPÓŁ OPIEKI ZDROWOTNEJ W ŚWIDNICY;Leśna 27-29, 58-100;50.83095;16.46959
+000000002388-007;kujawsko-pomorskie;Brodnica;ZESPÓŁ OPIEKI ZDROWOTNEJ W BRODNICY;WIEJSKA 9, 87-300;53.26181;19.39507
+000000018558-029;kujawsko-pomorskie;Bydgoszcz;SPZOZ 10 WOJSKOWY SZPITAL KLINICZNY Z POLIKLINIKĄ;POWSTAŃCÓW WARSZAWY 5, 85-681;53.142849;18.017019
+000000018588-018;kujawsko-pomorskie;Bydgoszcz;SZPITAL UNIWERSYTECKI NR 1 IM.DR. ANTONIEGO JURASZA W BYDGOSZCZY;MARII SKŁODOWSKIEJ-CURIE 9, 85-094;53.127499;18.0315
+000000002593-039;kujawsko-pomorskie;Bydgoszcz;SZPITAL UNIWERSYTECKI NR 2 IM. DR. JANA BIZIELA W BYDGOSZCZY;UJEJSKIEGO 75, 85-168;53.114922;18.02635
+000000002428-322;kujawsko-pomorskie;Grudziądz;REGIONALNY SZPITAL SPECJALISTYCZNY IM. DR. WŁADYSŁAWA BIEGAŃSKIEGO W GRUDZIĄDZU;RYDYGIERA 15/17, 86-300;53.45186;18.78666
+000000002232-020;kujawsko-pomorskie;Inowrocław;SZPITAL WIELOSPECJALISTYCZNY IM. DR. LUDWIKA BŁAŻKA W INOWROCŁAWIU;POZNAŃSKA 97, 88-100;52.780781;18.26292
+000000002435-063;kujawsko-pomorskie;Toruń;SPZOZ SPECJALISTYCZNY SZPITAL MIEJSKI IM. M. KOPERNIKA;BATOREGO 17, 87-100;53.02243;18.62251
+000000002403-065;kujawsko-pomorskie;Toruń;WOJEWÓDZKI SZPITAL ZESPOLONY IM. L. RYDYGIERA W TORUNIU;ŚW. JÓZEFA 53-59, 87-100;53.02716;18.58317
+000000155388-021;kujawsko-pomorskie;Włocławek;WOJEWÓDZKI SZPITAL SPECJALISTYCZNY WE WŁOCŁAWKU;WIENIECKA 49, 87-800;52.65934;19.0292
+000000019502-037;kujawsko-pomorskie;Świecie;NZOZ NOWY SZPITAL SP.ZO.O. PROWADZONY PRZEZ NOWY SZPITAL SP.ZO.O.;WOJSKA POLSKIEGO 126, 86-100;53.4139;18.46687
+000000002917-025;kujawsko-pomorskie;Żnin;PAŁUCKIE CENTRUM ZDROWIA SPÓŁKA Z ORGANICZONĄ ODPOWIEDZIALNOŚCIĄ;SZPITALNA 30, 88-400;52.84684;17.71719
+000000002999-001;lubelskie;Białapodlaska;WOJEWÓDZKI SZPITAL SPECJALISTYCZNY W BIAŁEJ PODLASKIEJ;Terebelska 57-65, 21-500;52.04645;23.110238
+000000002955-022;lubelskie;Chełm;SAMODZIELNY PUBLICZNY WOJEWÓDZKI SZPITAL SPECJALISTYCZNY W CHEŁMIE;Szpitalna 53B, 22-100;51.148769;23.456557
+000000002928-047;lubelskie;Janówlubelski;SAMODZIELNY PUBLICZNY ZESPÓŁ ZAKŁADÓW OPIEKI ZDROWOTNEJ W JANOWIE LUBELSKIM;J. Zamoyskiego 149, 23-300;50.702325;22.433549
+000000002960-064;lubelskie;Krasnystaw;SAMODZIELNY PUBLICZNY ZESPÓŁ OPIEKI ZDROWOTNEJ W KRASNYMSTAWIE;Głowackiego 3, 22-300;50.982504;23.163967
+000000002957-081;lubelskie;Kraśnik;SAMODZIELNY PUBLICZNY ZAKŁAD OPIEKI ZDROWOTNEJ W KRAŚNIKU;CHOPINA 13, 23-200;50.93182;22.222928
+000000018670-068;lubelskie;Lublin;SAMODZIELNY PUBLICZNY ZAKŁAD OPIEKI ZDROWOTNEJ MINISTERSTWA SPRAW WEWNĘTRZNYCH I ADMINISTRACJI W LUBLINIE;Grenadierów 3, 20-331;51.226755;22.614266
+000000018601-064;lubelskie;Lublin;UNIWERSYTECKI SZPITAL DZIECIĘCY W LUBLINIE;prof. Antoniego Gębali 6, 20-093;51.259939;22.56084
+000000018592-127;lubelskie;Lublin;UNIWERSYTECKI SZPITAL KLINICZNY NR 4 W LUBLINIE;Jaczewskiego 8, 20-954;51.258946;22.565666
+000000002945-104;lubelskie;Lublin;WOJEWÓDZKI SZPITAL SPECJALISTYCZNY IM. STEFANA KARDYNAŁA WYSZYŃSKIEGO SAMODZIELNY PUBLICZNY ZAKŁAD OPIEKI ZDROWOTNEJ;Al. Kraśnicka 100, 20-718;51.240219;22.501931
+000000002950-035;lubelskie;Parczew;SAMODZIELNY PUBLICZNY ZAKŁAD OPIEKI ZDROWOTNEJ W PARCZEWIE;Kościelna 136, 21-200;51.634283;22.912947
+000000002932-186;lubelskie;Puławy;SAMODZIELNY PUBLICZNY ZAKŁAD OPIEKI ZDROWOTNEJ W PUŁAWACH;Józefa Bema 1, 24-100;51.422318;21.974546
+000000002951-001;lubelskie;Radzyńpodlaski;SAMODZIELNY PUBLICZNY ZAKŁAD OPIEKI ZDROWOTNEJ W RADZYNIU PODLASKIM;Wisznicka 111, 21-300;51.771845;22.607318
+000000002978-135;lubelskie;Tomaszówlubelski;SAMODZIELNY PUBLICZNY ZESPÓŁ OPIEKI ZDROWOTNEJ W TOMASZOWIE LUBELSKIM;Aleje Grunwaldzkie 1, 22-600;50.443234;23.41585
+000000002991-098;lubelskie;Zamość;SAMODZIELNY PUBLICZNY SZPITAL WOJEWÓDZKI IM. PAPIEŻA JANA PAWŁA II W ZAMOŚCIU;A. JANA PAWŁA II 10, 22-400;50.712599;23.287211
+000000002926-082;lubelskie;Łuków;SAMODZIELNY PUBLICZNY ZAKŁAD OPIEKI ZDROWOTNEJ W ŁUKOWIE;dr. Andrzeja Rogalińskiego 3, 21-400;51.924811;22.378379
+000000002940-074;lubelskie;Łęczna;SAMODZIELNY PUBLICZNY ZAKŁAD OPIEKI ZDROWOTNEJ W ŁĘCZNEJ;Krasnystawska 52, 21-010;51.290725;22.876069
+000000004207-155;lubuskie;Gorzów Wielkopolski;Wielospecjalistyczny Szpital Wojewódzki w Gorzowie Wlkp.;Dekerta 1, 66-400;52.762021;15.236339
+000000004065-007;lubuskie;Międzyrzecz;Szpital Międzyrzecki sp. z o. o.;Konstytucji 3 Maja 35, 66-300;52.440224;15.584455
+000000004037-015;lubuskie;Nowa Sól;Wielospecjalistyczny Szpital Samodzielny Publiczny Zakład Opieki Zdrowotnej w Nowej Soli;Chałubińskiego 7, 67-100;51.80703;15.687074
+000000004161-008;lubuskie;Sulęcin;Samodzielny Publiczny Zakład Opieki Zdrowotnej w Sulęcinie;Witosa 7, 69-200;52.437619;15.11716
+000000025345-016;lubuskie;Słubice;NZOZ Szpital im. prof. Z. Religi w Słubicach sp. z o. o.;Nadodrzańska 6, 69-100;52.351602;14.556614
+000000004068-020;lubuskie;Zielona Góra;Szpital Uniwersytecki im.Karola Marcinkowskiego w Zielonej Górze sp. z o.o.;Zyty 26, 65-022;51.941751;15.51852
+000000021895-005;lubuskie;Świebodzin;Nowy Szpital w Świebodzinie sp. z o.o.;Młyńska 6, 66-200;52.252559;15.534412
+000000018552-059;lubuskie;Żary;105. Kresowy Szpital Wojskowy z Przychodnią Samodzielny Publiczny Zakład Opieki Zdrowotnej w Żarach;Domańskiego 2, 68-200;51.641116;15.148034
+000000007323-021;mazowieckie;Ciechanów;Specjalistyczny Szpital Wojewódzki w Ciechanowie;Powstańców Wielkopolskich 2, 06-400;52.883723;20.635351
+000000007322-097;mazowieckie;Garwolin;Samodzielny Publiczny Zakład Opieki Zdrowotnej w Garwolinie;Lubelska 50, 08-400;51.870344;21.637022
+000000007148-065;mazowieckie;Grodzisk Mazowiecki;Samodzielny Publiczny Specjalistyczny Szpital Zachodni im. św. Jana Pawła II;Daleka 11, 05-825;52.095347;20.615884
+000000024617-068;mazowieckie;Grójec;Powiatowe Centrum Medyczne w Grójcu sp. z o.o.;ks. Piotra Skargi 10, 05-600;51.867958;20.868439
+000000007316-049;mazowieckie;Kozienice;Samodzielny Publiczny Zespół Zakładów Opieki Zdrowotnej w Kozienicach;Aleja Władysława Sikorskiego 10, 26-900;51.591787;21.525058
+000000019182-369;mazowieckie;Legionowo;Wojskowy Instytut Medyczny - Państwowy Instytut Badawczy (Szpital w Legionowie);Zegrzyńska 8, 05-119;52.40403;20.949956
+000000007325-015;mazowieckie;Maków Mazowiecki;Samodzielny Publiczny Zakład Opieki Zdrowotnej - Zespół Zakładów w Makowie Mazowieckim;Wincentego Witosa 2, 06-200;52.862024;21.086963
+000000007324-006;mazowieckie;Mińsk Mazowiecki;Samodzielny Publiczny Zespół Opieki Zdrowotnej w Mińsku Mazowieckim;Szpitalna 37, 05-300;52.174195;21.576776
+000000009125-053;mazowieckie;Mława;Samodzielny Publiczny Zakład Opieki Zdrowotnej w Mławie;Anny Dobrskiej 1, 06-500;53.12339;20.371293
+000000007135-085;mazowieckie;Nowy Dwór Mazowiecki;Nowodworskie Centrum Medyczne w Nowym Dworze Mazowieckim;Miodowa 2, 05-100;52.42037;20.725262
+000000007310-101;mazowieckie;Ostrołęka;Mazowiecki Szpital Specjalistyczny im. dr. Józefa Psarskiego w Ostrołęce;Jana Pawła II 120a, 07-410;53.062711;21.589933
+000000007318-077;mazowieckie;Ostrów Mazowiecka;Samodzielny Publiczny Zespół Zakładów Opieki Zdrowotnej w Ostrowi Mazowieckiej;Stanisława Duboisa 68, 07-300;52.799747;21.912984
+000000007131-067;mazowieckie;Przasnysz;Samodzielny Publiczny Zespół Zakładów Opieki Zdrowotnej w Przasnyszu;Sadowa 9, 06-300;53.028356;20.895302
+000000007168-025;mazowieckie;Płock;Wojewódzki Szpital Zespolony w Płocku;Medyczna 19, 09-400;52.557082;19.654001
+000000007478-047;mazowieckie;Płońsk;Samodzielny Publiczny Zespół Zakładów Opieki Zdrowotnej im. Marszałka Józefa Piłsudskiego w Płońsku;Henryka Sienkiewicza 7, 09-100;52.630319;20.37747
+000000007192-080;mazowieckie;Radom;Mazowiecki Szpital Specjalistyczny sp. z o.o.;Juliana Aleksandrowicza 5, 26-617;51.43777;21.158941
+000000007203-106;mazowieckie;Radom;Radomski Szpital Specjalistyczny im. dr Tytusa Chałubińskiego;Adolfa Tochtermana 1, 26-610;51.398871;21.146253
+000000025128-034;mazowieckie;Siedlce;Mazowiecki Szpital Wojewódzki im. św. Jana Pawła II w Siedlcach sp. z o.o.;Józefa Poniatowskiego 26, 08-110;52.17755;22.291593
+000000007261-078;mazowieckie;Sochaczew;Zespół Opieki Zdrowotnej SZPITALA POWIATOWEGO w Sochaczewie;Batalionów Chłopskich 3/7, 96-500;52.239129;20.227816
+000000007320-206;mazowieckie;Sokołów Podlaski;Samodzielny Publiczny Zakład Opieki Zdrowotnej w Sokołowie Podlaskim;ks. Jana Bosko 5, 08-300;52.403376;22.242033
+000000025125-039;mazowieckie;Warszawa;Mazowiecki Szpital Bródnowski w Warszawie sp. z o.o.;Ludwika Kondratowicza 8, 03-242;52.291131;21.044636
+000000007303-173;mazowieckie;Warszawa;Międzyleski Szpital Specjalistyczny w Warszawie;Bursztynowa 2, 04-749;52.203902;21.182992
+000000018631-018;mazowieckie;Warszawa;Państwowy Instytut Medyczny Ministerstwa Spraw Wewnętrznych i Administracji w Warszawie;Wołoska 137, 02-507;52.199108;20.998347
+000000007199-083;mazowieckie;Warszawa;Szpital Bielański im. ks. Jerzego Popiełuszki Samodzielny Publiczny Zakład Opieki Zdrowotnej;Cegłowska 80, 01-809;52.286931;20.951262
+000000007174-147;mazowieckie;Warszawa;Szpital Czerniakowski sp. z o.o.;Stępińska 19/25, 00-739;52.20536;21.036991
+000000007152-011;mazowieckie;Warszawa;Szpital Dziecięcy im. prof. dr. med. Jana Bogdanowicza Samodzielny Publiczny Zakład Opieki Zdrowotnej;Niekłańska 4/24, 03-924;52.234817;21.063969
+000000007197-049;mazowieckie;Warszawa;Szpital Praski p.w. Przemienienia Pańskiego;"Aleja ""Solidarności"" 67, 03-401";52.25168;21.029794
+000000007137-059;mazowieckie;Warszawa;Szpital Wolski im. dr Anny Gostynińskiej Samodzielny Publiczny Zakład Opieki Zdrowotnej;Marcina Kasprzaka 17, 01-211;52.227252;20.971577
+000000018598-675;mazowieckie;Warszawa;Uniwersyteckie Centrum Kliniczne Warszawskiego Uniwersytetu Medycznego (Dziecięcy Szpital Kliniczny);Żwirki i Wigury 63a, 02-091;52.207333;20.983339
+000000018598-822;mazowieckie;Warszawa;Uniwerysteckie Centrum Kliniczne Warszawskiego Uniwerystetu Medycznego (Szpital Kliniczny Dzieciątka Jezus);Williama Heerleina Lindleya 4, 02-005;52.224475;20.997584
+000000025101-145;mazowieckie;Warszawa;Warszawski Szpital Południowy sp. z o.o.;rtm. Witolda Pileckiego 99, 00-382;52.146657;21.035608
+000000019182-001;mazowieckie;Warszawa;Wojskowy Instytut Medyczny - Państwowy Instytut Badawczy;Szaserów 128, 04-141;52.251199;21.088599
+000000007160-050;mazowieckie;Wołomin;Szpital Matki Bożej Nieustającej Pomocy w Wołominie;Gdyńska 1/3, 05-200;52.346654;21.221617
+000000007252-100;mazowieckie;Wyszków;Samodzielny Publiczny Zespół Zakładów Opieki Zdrowotnej w Wyszkowie;Komisji Edukacji Narodowej 1, 07-200;52.586343;21.443801
+000000005911-048;małopolskie;Bochnia;Szpital Powiatowy im. bł. Marty Wieckiej;Krakowska 31, 32-700;49.96641;20.421093
+000000005946-085;małopolskie;Brzesko;Samodzielny Publiczny Zespół Opieki Zdrowotnej w Brzesku;Kościuszki 68, 32-800;49.969178;20.590836
+000000006129-016;małopolskie;Chrzanów;Szpital Powiatowy w Chrzanowie;Topolowa 16, 32-500;50.13702;19.42858
+000000006065-087;małopolskie;Gorlice;Szpital Specjalistyczny im. Henryka Klimontowicza w Gorlicach;Węgierska 21, 38-300;49.650702;21.162708
+000000018551-583;małopolskie;Kraków;5 Wojskowy Szpital Kliniczny z Polikliniką w Krakowie;Wrocławska 1-3, 30-901;50.07524;19.93428
+000000005594-061;małopolskie;Kraków;Szpital Miejski Specjalistyczny im. Gabriela Narutowicza;Prądnicka 35-37, 31-202;50.0827;19.938
+000000024512-016;małopolskie;Kraków;Szpital Specjalistyczny im. Ludwika Rydygiera w Krakowie Sp. z o. o.;Os. Złotej Jesieni 1, 31-826;50.092752;20.020268
+000000005606-064;małopolskie;Kraków;Szpital Specjalistyczny im. Stefana Żeromskiego w Krakowie;Os. Na Skarpie 66, 31-913;50.0657;20.04611
+000000005594-061;małopolskie;Kraków;Szpital Uniwersytecki w Krakowie;Macieja Jakubowskiego 2, 30-688;50.00935;20.00076
+000000018602-013;małopolskie;Kraków;Uniwersytecki Szpital Dziecięcy w Krakowie;Wielicka 265, 30-663;50.01251;20.00018
+000000006061-059;małopolskie;Limanowa;Szpital Powiatowy w Limanowej im. Miłosierdzia Bożego;Piłsudskiego 61, 34-600;49.71643;20.41348
+000000006273-044;małopolskie;Miechów;Szpital św. Anny w Miechowie;Szpitalna 3, 32-200;50.354;20.03491
+000000005588-043;małopolskie;Myślenice;Samodzielny Publiczny Zakład Opieki Zdrowotnej w Myślenicach;Szpitalna 2, 32-400;49.82945;19.94744
+000000006066-058;małopolskie;Nowy Sącz;Szpital Specjalistyczny im. Jędrzeja Śniadeckiego w Nowym Sączu;Młyńska 5, 33-300;49.620659;20.700001
+000000006068-012;małopolskie;Nowy Targ;Podhalański Szpital Specjalistyczny im. Jana Pawła II w Nowym Targu;Szpitalna 14, 34-400;49.489773;20.027398
+000000023846-013;małopolskie;Olkusz;Nowy Szpital w Olkuszu Sp. z o. o.;1000-Lecia 13, 32-300;50.26925;19.56924
+000000006094-062;małopolskie;Oświęcim;Zespół Opieki Zdrowotnej w Oświęcimiu;Wysokie Brzegi 4, 32-600;50.040588;19.235809
+000000006091-093;małopolskie;Sucha Beskidzka;Zespół Opieki Zdrowotnej w Suchej Beskidzkiej;Szpitalna 22, 34-200;49.736563;19.605005
+000000005908-016;małopolskie;Tarnów;Szpital Wojewódzki im. św. Łukasza;Lwowska 178a, 33-100;50.01264;21.0336
+000000006095-076;małopolskie;Wadowice;Zespół Zakładów Opieki Zdrowotnej w Wadowicach;Karmelicka 7a, 34-100;49.88091;19.49307
+000000006062-014;małopolskie;Zakopane;Szpital Powiatowy im. dr Tytusa Chałubińskiego w Zakopanem;Kamieniec 10, 34-500;49.304418;19.955612
+000000009440-054;opolskie;Brzeg;Brzeskie Centrum Medyczne;ul. Mossora 1, 49-301;50.85736;17.47743
+000000009439-087;opolskie;Kędzierzyn-Koźle;Samodzielny Publiczny Zespół Opieki Zdrowotnej w Kędzierzynie-Koźlu;ul. Roosevelta 2, 47-200;50.33244;18.15134
+000000009408-015;opolskie;Nysa;Zespół Opieki Zdrowotnej w Nysie;ul. Bohaterów Warszawy 34, 48-300;50.47104;17.32833
+000000009626-013;opolskie;Olesno;Zespół Opieki Zdrowotnej w Oleśnie;ul. Klonowa 1, 46-300;50.8806;18.41353
+000000009565-028;opolskie;Opole;Szpital Wojewódzki w Opolu spółka z ograniczoną odpowiedzialnością;ul. Katowicka 64, 45-372;50.67084;17.9359
+000000009484-022;opolskie;Opole;Uniwersytecki Szpital Kliniczny w Opolu;Aleja Wincentego Witosa 26, 45-418;50.67738;17.97615
+000000009437-036;opolskie;Strzelce Opolskie;Szpital Powiatowy im. Prałata J. Glowatzkiego w Strzelcach Opolskich;ul. Opolska 36A, 47-100;50.51247;18.30095
+000000010076-085;podkarpackie;Brzozów;Szpital Specjalistyczny w Brzozowie Podkarpacki Ośrodek Onkologiczny im. Ks. B. Markiewicza;ks. Józefa Bielawskiego 18, 36-200;49.69263;22.02491
+000000010193-208;podkarpackie;Dębica;Zespół Opieki Zdrowotnej w Dębicy;Krakowska 91, 39-200;50.03905;21.39317
+000000010150-181;podkarpackie;Jarosław;Centrum Opieki Medycznej w Jarosławiu;3 Maja 70, 37-500;50.0135;22.69348
+000000010074-070;podkarpackie;Jasło;Szpital Specjalistyczny w Jaśle;Lwowska 22, 38-200;49.75213;21.4805
+000000010080-124;podkarpackie;Krosno;Wojewódzki Szpital Podkarpacki im. Jana Pawła II w Krośnie;Korczyńska 57, 38-400;49.70179;21.78273
+000000010077-045;podkarpackie;Lesko;Samodzielny Publiczny Zespół Opieki Zdrowotnej w Lesku;Kazimierza Wielkiego 4, 38-600;49.47043;22.33041
+000000009967-013;podkarpackie;Leżajsk;Samodzielny Publiczny Zespół Opieki Zdrowotnej w Leżajsku;Leśna 22, 37-300;50.27197;22.40154
+000000010196-033;podkarpackie;Lubaczów;Samodzielny Publiczny Zakład Opieki Zdrowotnej w Lubaczowie;Adama Mickiewicza 168, 37-600;50.17112;23.12338
+000000009957-082;podkarpackie;Mielec;Szpital Specjalistyczny im. Edmunda Biernackiego w Mielcu;Żeromskiego 22, 39-300;50.288799;21.436621
+000000010152-020;podkarpackie;Przemyśl;Wojewódzki Szpital im. Św.Ojca Pio w Przemyślu;Monte Cassino 18, 37-700;49.805988;22.784189
+000000009968-073;podkarpackie;Rzeszów;Kliniczny Szpital Wojewódzki Nr 2 im. Św. Jadwigi Królowej w Rzeszowie;Lwowska 60, 35-301;50.03597;22.03455
+000000018635-149;podkarpackie;Rzeszów;Samodzielny Publiczny Zakład Opieki Zdrowotnej Ministerstwa Spraw Wewnętrznych i Administracji w Rzeszowie;Krakowska 16, 35-311;50.04652;21.98188
+000000010075-017;podkarpackie;Sanok;Samodzielny Publiczny Zespół Opieki Zdrowotnej w Sanoku;800-lecia 26, 38-500;49.5526;22.19925
+000000010188-057;podkarpackie;Stalowa Wola;Samodzielny Publiczny Zespół Zakładów Opieki Zdrowotnej Powiatowy Szpital Specjalistyczny w Stalowej Woli;Staszica 4, 37-450;50.56329;22.06842
+000000010157-074;podkarpackie;Tarnobrzeg;Wojewódzki Szpital im. Zofii z Zamoyskich Tarnowskiej w Tarnobrzegu;Szpitalna 1, 39-400;50.56687;21.6705
+000000010716-086;podlaskie;Augustów;SAMODZIELNY PUBLICZNY ZAKŁAD OPIEKI ZDROWOTNEJ W AUGUSTOWIE;SZPITALNA 12, 16-300;53.8513;22.99358
+000000010675-004;podlaskie;Białystok;SP ZOZ WOJEWÓDZKI SZPITAL ZESPOLONY IM. J. ŚNIADECKIEGO;SKŁODOWSKIEJ-CURIE 26, 15-950;53.12493;23.16223
+000000018590-011;podlaskie;Białystok;UNIWERSYTECKI DZIECIĘCY SZPITAL KLINICZNY IM. L. ZAMENHOFA W BIAŁYMSTOKU;WASZYNGTONA 17, 15-274;53.1257;23.15848
+000000018587-024;podlaskie;Białystok;UNIWERSYTECKI SZPITAL KLINICZNY W BIAŁYMSTOKU;M.C.SKŁODOWSKIEJ 24A, 15-276;53.12478;23.15921
+000000010653-008;podlaskie;Bielsk Podlaski;SAMODZIELNY PUBLICZNY ZAKŁAD OPIEKI ZDROWOTNEJ W BIELSKU PODLASKIM;KLESZCZELOWSKA 1, 17-100;52.75967;23.20233
+000000010739-053;podlaskie;Grajewo;SZPITAL OGÓLNY IM. DR WITOLDA GINELA W GRAJEWIE;KONSTYTUCJI 3 MAJA 34, 19-203;53.6464;22.46987
+000000010655-065;podlaskie;Hajnówka;SAMODZIELNY PUBLICZNY ZAKŁAD OPIEKI ZDROWOTNEJ W HAJNÓWCE;ADAMA DOWGIRDA 9, 17-200;52.74613;23.60974
+000000010637-011;podlaskie;Sokółka;SAMODZIELNY PUBLICZNY ZAKŁAD OPIEKI ZDROWOTNEJ W SOKÓŁCE;GEN. WŁADYSŁAWA SIKORSKIEGO 40, 16-100;53.40747;23.48494
+000000010720-056;podlaskie;Suwałki;SZPITAL WOJEWÓDZKI IM. DR. LUDWIKA RYDYGIERA W SUWAŁKACH;SZPITALNA 60, 16-400;54.11951;22.92539
+000000010747-041;podlaskie;Wysokie Mazowieckie;SZPITAL OGÓLNY W WYSOKIEM MAZOWIECKIEM;SZPITALNA 5, 18-200;52.91548;22.5222
+000000011028-063;podlaskie;Zambrów;SZPITAL POWIATOWY W ZAMBROWIE SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ;PAPIEŻA J. PAWŁA II 3, 18-300;52.98676;22.25563
+000000010634-073;podlaskie;Łapy;SAMODZIELNY PUBLICZNY ZAKŁAD OPIEKI ZDROWOTNEJ W ŁAPACH;KORCZAKA 23, 18-100;52.98835;22.867
+000000010742-034;podlaskie;Łomża;SZPITAL WOJEWÓDZKI IM.KARDYNAŁA STEFANA WYSZYŃSKIEGO;MARSZ. JÓZEFA PIŁSUDSKIEGO 11, 18-404;53.16067;22.08707
+000000011485-015;pomorskie;Chojnice;Szpital Specjalistyczny im. J. K.Łukowicza w Chojnicach;Leśna 10, 89-600;53.711993;17.547907
+000000011393-127;pomorskie;Gdańsk;COPERNICUS Podmiot Leczniczy Sp. z o. o.;Nowe Ogrody 1, 80-803;54.351004;18.637496
+000000011393-174;pomorskie;Gdańsk;COPERNICUS Podmiot Leczniczy Sp. z o. o.;al. Jana Pawła II 50, 80-462;54.403103;18.612337
+000000018619-110;pomorskie;Gdańsk;Uniwersyteckie Centrum Kliniczne;Mariana Smoluchowskiego 17, 80-214;54.365803;18.61977
+000000011245-185;pomorskie;Gdynia;Szpitale Pomorskie Sp. z o. o.;Wójta Radtkego 1, 81-348;54.522256;18.541996
+000000022795-007;pomorskie;Kartuzy;Powiatowe Centrum Zdrowia Spółka z ograniczoną odpowiedzialnością;Floriana Ceynowy 7, 83-300;54.336489;18.198915
+000000011379-017;pomorskie;Kościerzyna;Szpital Specjalistyczny w Kościerzynie Sp. z o. o.;A. Piechowskiego 36, 83-400;54.121273;17.949956
+000000011848-029;pomorskie;Kwidzyn;ZDROWIE Spółka z ograniczoną odpowiedzialnością;Hallera 31, 82-500;53.726969;18.920491
+000000011494-031;pomorskie;Lębork;Samodzielny Publiczny Specjalistyczny Zakład Opieki Zdrowotnej;Juliana Węgrzynowicza 13, 84-300;54.538561;17.751546
+000000024254-012;pomorskie;Starogard Gdański;Kociewskie Centrum Zdrowia Spółka z ograniczoną odpowiedzialnością;dr. Józefa Balewskiego 1, 83-200;53.967284;18.508335
+000000012184-699;pomorskie;Sztum;American Heart of Poland Spółka Akcyjna;Reja 12, 82-400;53.922537;19.025231
+000000011493-016;pomorskie;Słupsk;Wojewódzki Szpital Specjalistyczny im. Janusza Korczaka w Słupsku Spółka z ograniczoną odpowiedzialnością;Hubalczyków 1, 76-200;54.451711;17.06239
+000000011245-185;pomorskie;Wejherowo;Szpitale Pomorskie Sp. z o. o.;dr. Alojzego Jagalskiego 10, 84-200;54.615575;18.245495
+000000015612-018;warmińsko-mazurskie;Bartoszyce;Szpital Powiatowy im. Jana Pawła II w Bartoszycach;Wyszyńskiego 11, 11-200;54.258653;20.796483
+000000014994-041;warmińsko-mazurskie;Działdowo;Samodzielny Publiczny Zakład Opieki Zdrowotnej w Działdowie;Leśna 1, 13-200;53.241782;20.192547
+000000015359-090;warmińsko-mazurskie;Elbląg;Wojewódzki Szpital Zespolony w Elblągu;Królewiecka 146, 82-300;54.179009;19.429316
+000000018565-096;warmińsko-mazurskie;Ełk;118 Szpital Wojskowy z Przychodnią Samodzielny Publiczny Zakład Opieki Zdrowotnej w Ełku;Tadeusza Kościuszki 30, 19-300;53.820852;22.364016
+000000226702-001;warmińsko-mazurskie;Giżycko;Giżycka Ochrona Zdrowia Sp. z o.o.;Warszawska 41, 11-500;54.036916;21.782125
+000000015097-017;warmińsko-mazurskie;Iława;Powiatowy Szpital im.Władysława Biegańskiego w Iławie;Gen. Władysława Andersa 3, 14-200;53.5865;19.566849
+000000015041-055;warmińsko-mazurskie;Mrągowo;Szpital Mrągowski im. Michała Kajki Sp. z o. o.;Wolności 3, 11-700;53.87938;21.302814
+000000018659-041;warmińsko-mazurskie;Olsztyn;Samodzielny Publiczny Zakład Opieki Zdrowotnej Ministerstwa Spraw Wewnętrznych i Administracji z Warmińsko-Mazurskim Centrum Onkologii w Olsztynie;Wojska Polskiego 37, 10-228;53.793759;20.483116
+000000015091-060;warmińsko-mazurskie;Olsztyn;Wojewódzki Specjalistyczny Szpital Dziecięcy im. prof. dr Stanisława Popowskiego w Olsztynie;Żołnierska 18 A, 10-561;53.768139;20.496472
+000000015091-060;warmińsko-mazurskie;Olsztyn;Wojewódzki Szpital Specjalistyczny w Olsztynie;Żołnierska 18, 10-561;53.769637;20.492258
+000000015139-074;warmińsko-mazurskie;Pisz;Samodzielny Publiczny Zakład Opieki Zdrowotnej Szpital Powiatowy w Piszu;Sienkiewicza 2, 12-200;53.626022;21.799525
+000000015344-062;warmińsko-mazurskie;Szczytno;Zespół Opieki Zdrowotnej w Szczytnie;Marii Skłodowskiej-Curie 12, 12-100;53.557658;20.986055
+000000016123-007;wielkopolskie;Gniezno;SZPITAL POMNIK CHRZTU POLSKI;3 MAJA 37/39, 62-200;52.53653;17.60073
+000000024539-007;wielkopolskie;Jarocin;SZPITAL POWIATOWY W JAROCINIE;SZPITALNA 1, 63-200;51.96934;17.50458
+000000020536-018;wielkopolskie;Kalisz;WOJEWÓDZKI SZPITAL ZESPOLONY IM. LUDWIKA PERZYNY W KALISZU;POZNAŃSKA 79, 62-800;51.76533;18.06697
+000000015948-126;wielkopolskie;Konin;WOJEWÓDZKI SZPITAL ZESPOLONY W KONINIE;SZPITALNA 45, 62-504;52.19488;18.23975
+000000015840-010;wielkopolskie;Kościan;SAMODZIELNY PUBLICZNY ZESPÓŁ OPIEKI ZDROWOTNEJ W KOŚCIANIE;SZPITALNA 7, 64-000;52.08478;16.64742
+000000015765-093;wielkopolskie;Krotoszyn;SAMODZIELNY PUBLICZNY ZAKŁAD OPIEKI ZDROWOTNEJ W KROTOSZYNIE;MICKIEWICZA 21, 63-700;51.69874;17.43326
+000000015774-009;wielkopolskie;Kępno;SAMODZIELNY PUBLICZNY ZAKŁAD OPIEKI ZDROWOTNEJ W KĘPNIE;SZPITALNA 7, 63-600;51.27703;17.98483
+000000015837-018;wielkopolskie;Leszno;WOJEWÓDZKI SZPITAL ZESPOLONY W LESZNIE;KIEPURY 45, 64-100;51.83866;16.60718
+000000016065-052;wielkopolskie;Międzychód;SAMODZIELNY PUBLICZNY ZAKŁAD OPIEKI ZDROWOTNEJ W MIĘDZYCHODZIE;SZPITALNA 10, 64-400;52.59937;15.88963
+000000016116-009;wielkopolskie;Nowy Tomyśl;SAMODZIELNY PUBLICZNY ZAKŁAD OPIEKI ZDROWOTNEJ IMIENIA DOKTORA KAZIMIERZA HOŁOGI;SIENKIEWICZA 3, 64-300;52.31541;16.14099
+000000015777-016;wielkopolskie;Ostrów Wielkopolski;ZESPÓŁ ZAKŁADÓW OPIEKI ZDROWOTNEJ OSTRÓW WIELKOPOLSKI;LIMANOWSKIEGO 20/22, 63-400;51.65511;17.8257
+000000015858-020;wielkopolskie;Piła;SZPITAL SPECJALISTYCZNY W PILE IM. STANISŁAWA STASZICA;RYDYGIERA 1, 64-920;53.12186;16.71937
+000000022113-056;wielkopolskie;Pleszew;PLESZEWSKIE CENTRUM MEDYCZNE W PLESZEWIE SP. Z O.O.;POZNAŃSKA 125A, 63-300;51.89759;17.76603
+000000016142-211;wielkopolskie;Poznań;SPECJALISTYCZNY ZESPÓŁ OPIEKI ZDROWOTNEJ NAD MATKĄ I DZIECKIEM W POZNANIU;ADAMA WRZOSKA 1, 60-663;52.437714;16.905726
+000000018573-351;wielkopolskie;Poznań;UNIWERSYTECKI SZPITAL KLINICZNY;GRUNWALDZKA 55, 60-352;52.40367;16.885435
+000000016105-015;wielkopolskie;Poznań-Jeżyce;SZPITAL WOJEWÓDZKI W POZNANIU;JURASZÓW 7-19, 60-479;52.44119;16.90651
+000000016137-062;wielkopolskie;Poznań-Nowe Miasto;WIELOSPECJALISTYCZNY SZPITAL MIEJSKI IM.JÓZEFA STRUSIA Z ZAKŁADEM OPIEKUŃCZO-LECZNICZYM. SAMODZIELNY PUBLICZNY ZAKŁAD OPIEKI ZDROWOTNEJ Z SIEDZIBĄ W POZNANIU;SZWAJCARSKA 3, 61-285;52.389863;16.99464
+000000151201-005;wielkopolskie;Poznań-Wilda;CENTRUM MEDYCZNE HCP SP. Z O.O. NZOZ CENTRUM MEDYCZNE HCP LECZNICTWO STACJONARNE;28 CZERWCA1956 194, 61-485;52.38317;16.91243
+000000017489-013;wielkopolskie;Puszczykowo;SZPITAL W PUSZCZYKOWIE IM. PROF. S.T. DĄBROWSKIEGO SPÓŁKA AKCYJNA;KRASZEWSKIEGO 11, 62-041;52.2641;16.86811
+000000016124-009;wielkopolskie;Szamotuły;SAMODZIELNY PUBLICZNY ZAKŁAD OPIEKI ZDROWOTNEJ;SUKIENNICZA 13, 64-500;52.61075;16.58123
+000000015856-040;wielkopolskie;Trzcianka;SZPITAL POWIATOWY IM. JANA PAWŁA II W TRZCIANCE;SIKORSKIEGO 9, 64-980;53.03958;16.46361
+000000016068-074;wielkopolskie;Wolsztyn;SAMODZIELNY PUBLICZNY ZAKŁAD OPIEKI ZDROWOTNEJ W WOLSZTYNIE;WSCHOWSKA 3, 64-200;52.11669;16.11729
+000000022104-075;wielkopolskie;Września;SZPITAL POWIATOWY WE WRZEŚNI SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ;SŁOWACKIEGO 2, 62-300;52.32506;17.57337
+000000015859-015;wielkopolskie;Wągrowiec;ZESPÓŁ OPIEKI ZDROWOTNEJ W WĄGROWCU;KOŚCIUSZKI 74, 62-100;52.81769;17.20367
+000000015861-008;wielkopolskie;Złotów;SZPITAL POWIATOWY IM. ALFREDA SOKOŁOWSKIEGO W ZŁOTOWIE;SZPITALNA 28, 77-400;53.3556;17.04372
+000000026100-001;wielkopolskie;Śrem;SZPITAL POWIATOWY IM. TADEUSZA MALIŃSKIEGO W ŚREMIE SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ;CHEŁMOŃSKIEGO 1, 63-100;52.08929;17.00711
+000000016139-007;wielkopolskie;Środa Wielkopolska;SZPITAL ŚREDZKI SERCA JEZUSOWEGO SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ;ŻWIRKI I WIGURY 10, 63-000;52.22742;17.28501
+000000018416-003;zachodniopomorskie;Choszczno;SAMODZIELNY PUBLICZNY ZAKŁAD OPIEKI ZDROWOTNEJ W CHOSZCZNIE;NIEDZIAŁKOWSKIEGO 4A, 73-200;53.16568;15.41359
+000000012184-581;zachodniopomorskie;Drawsko Pomorskie;AMERICAN HEART OF POLAND SPÓŁKA AKCYJNA;B. CHROBREGO 4, 78-500;53.526426;15.816028
+000000017642-017;zachodniopomorskie;Gryfice;SAMODZIELNY PUBLICZNY ZESPÓŁ ZAKŁADÓW OPIEKI ZDROWOTNEJ W GRYFICACH;NIECHORSKA 27, 72-300;53.9243;15.17442
+000000018250-057;zachodniopomorskie;Koszalin;SZPITAL WOJEWÓDZKI IM. MIKOŁAJA KOPERNIKA W KOSZALINIE;CHAŁUBIŃSKIEGO 7, 75-581;54.19794;16.21324
+000000017670-095;zachodniopomorskie;Stargard;SAMODZIELNY PUBLICZNY WIELOSPECJALISTYCZNY ZAKŁAD OPIEKI ZDROWOTNEJ W STARGARDZIE;WOJSKA POLSKIEGO 27, 73-100;53.34328;15.03709
+000000017654-631;zachodniopomorskie;Szczecin;SAMODZIELNY PUBLICZNY SPECJALISTYCZNY ZAKŁAD OPIEKI ZDROWOTNEJ ZDROJE;MĄCZNA 4, 70-780;53.373199;14.64411
+000000017656-214;zachodniopomorskie;Szczecin;SAMODZIELNY PUBLICZNY WOJEWÓDZKI SZPITAL ZESPOLONY W SZCZECINIE;ARKOŃSKA 4, 71-455;53.4528;14.52583
+000000017656-214;zachodniopomorskie;Szczecin;SAMODZIELNY PUBLICZNY WOJEWÓDZKI SZPITAL ZESPOLONY W SZCZECINIE;ALFREDA SOKOŁOWSKIEGO 11, 70-891;53.37852;14.77193
+000000018612-092;zachodniopomorskie;Szczecin;UNIWERSYTECKI SZPITAL KLINICZNY NR 1 IM. PROF.TADEUSZA SOKOŁOWSKIEGO PUM W SZCZECINIE;UNII LUBELSKIEJ 1, 71-252;53.44815;14.50541
+000000022365-034;zachodniopomorskie;Szczecinek;SZPITAL W SZCZECINKU SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ;KOŚCIUSZKI 38, 78-400;53.713;16.679
+000000005222-115;łódzkie;Bełchatów;Szpital Wojewódzki im. Jana Pawła II w Bełchatowie;Czapliniecka 123, 97-400;51.37498;19.349153
+000000024615-009;łódzkie;Brzeziny;Szpital Powiatowy w Brzezinach;M. Skłodowskej -Curie 6, 95-060;51.805826;19.754454
+000000025063-016;łódzkie;Kutno;Niepubliczny Zakład Opieki Zdrowotnej Kutnowski Szpital Samorządowy;T. Kościuszki 52, 99-300;52.238867;19.370843
+000000005183-017;łódzkie;Opoczno;Samodzielny Publiczny Zakład Opieki Zdrowotnej Szpital Powiatowy im.Edmunda Biernackiego w Opocznie;Partyzantów 30, 26-300;51.378972;20.277541
+000000023602-014;łódzkie;Pabianice;Pabianickie Centrum Medyczne Sp. z o.o.;Jana Pawła II 68, 95-200;51.65223;19.328267
+000000005179-016;łódzkie;Piotrków Trybunalski;Samodzielny Szpital Wojewódzki im. Mikołaja Kopernika w Piotrkowie Trybunalskim;Rakowska 15, 97-300;51.419583;19.71444
+000000025789-079;łódzkie;Poddębice;Poddębickie Centrum Zdrowia;Mickiewicza 16, 99-200;51.888943;18.953012
+000000005180-257;łódzkie;Radomsko;Uniwersytecki Szpital Kliniczny w Radomsku;Jagiellońska 36, 97-500;51.057575;19.458293
+000000005249-019;łódzkie;Sieradz;Szpital Wojewódzki im. Prymasa Kardynała Stefana Wyszyńskiego w Sieradzu;Armii Krajowej 7, 98-200;51.5819;18.710277
+000000005118-072;łódzkie;Skierniewice;Wojewódzki Szpital Zespolony im. Stanisława Rybickiego w Skierniewicach;dr Stanisława Rybickiego 1, 96-100;51.963645;20.152434
+000000023114-014;łódzkie;Tomaszów Mazowiecki;Tomaszowskie Centrum Zdrowia;Jana Pawła II 35, 97-200;51.523123;20.005085
+000000005247-024;łódzkie;Wieluń;SAMODZIELNY PUBLICZNY ZAKŁAD OPIEKI ZDROWOTNEJ Wieluń;Szpitalna 16, 98-300;51.213369;18.56362
+000000004416-088;łódzkie;Zgierz;Wojewódzki Szpital Specjalistyczny im. Marii Skłodowskiej - Curie w Zgierzu;Parzęczewska 35, 95-100;51.862501;19.389045
+000000018629-156;łódzkie;Łódź;Samodzielny Publiczny Zakład Opieki Zdrowotnej Centralny Szpital Kliniczny Uniwersytetu Medycznego w Łodzi;Sporna 36, 91-738;51.785942;19.478589
+000000018624-320;łódzkie;Łódź-Górna;Instytut Centrum Zdrowia Matki Polki;Rzgowska 281, 93-338;51.706696;19.480012
+000000004373-096;łódzkie;Łódź-Górna;Wojewódzkie Wielospecjalistyczne Centrum Onkologii i Traumatologii im. M. Kopernika w Łodzi;Pabianicka 62, 93-513;51.732214;19.455817
+000000018538-347;łódzkie;Łódź-Polesie;SP ZOZ Uniwersytecki Szpital Kliniczny im.Wojskowej Akademii Medycznej UM w Łodzi - Centralny Szpital Weteranów;Stefana Żeromskiego 113, 90-549;51.759557;19.446803
+000000004685-016;łódzkie;Łódź-Widzew;Miejskie Centrum Medyczne im. dr.Karola Jonschera w Łodzi;Milionowa 14, 93-113;51.751436;19.481484
+000000018629-156;łódzkie;Łódź-Widzew;Samodzielny Publiczny Zakład Opieki Zdrowotnej Centralny Szpital Kliniczny Uniwersytetu Medycznego w Łodzi;Pomorska 251, 92-213;51.774753;19.50355
+000000018576-142;łódzkie;Łódź-Śródmieście;Samodzielny Publiczny Zakład Opieki Zdrowotnej Uniwersytecki Szpital Kliniczny Nr 1 im. Norberta Barlickiego;Stefana Kopcińskiego 22, 90-153;51.773804;19.482905
+000000005232-010;łódzkie;Łęczyca;ZESPÓŁ OPIEKI ZDROWOTNEJ w Łęczycy;Zachodnia 6, 99-100;52.05935;19.185359
+000000013794-018;śląskie;Bielsko-Biała;Szpital Wojewódzki w Bielsku-Białej;Al.Armii Krajowej 101, 43-300;49.79284;19.03906
+000000013027-120;śląskie;Chorzów;Samodzielny Publiczny Zakład Opieki Zdrowotnej Zespół Szpitali Miejskich w Chorzowie;Władysława Truchana 7, 41-500;50.29681;18.94842
+000000014118-086;śląskie;Cieszyn;Zespół Zakładów Opieki Zdrowotnej w Cieszynie;Bielska 4, 43-400;49.74628;18.63899
+000000012192-100;śląskie;Częstochowa;Miejski Szpital Zespolony;Mirowska 15, 42-200;50.81189;19.13328
+000000013313-071;śląskie;Częstochowa;Wojewódzki Szpital Specjalistyczny im. N.M.P. Szpitalny Oddział Ratunkowy;Bialska 104/118, 42-200;50.82801;19.08819
+000000013451-067;śląskie;Dąbrowa Górnicza;Zagłębiowskie Centrum Onkologii Szpital Specjalistyczny im. Sz. Starkiewicza w Dąbrowie Górniczej;Szpitalna 13, 41-300;50.32014;19.17679
+000000013783-059;śląskie;Jaworzno;Szpital Wielospecjalistyczny w Jaworznie;Chełmońskiego 28, 43-600;50.20552;19.28419
+000000018654-164;śląskie;Katowice;GÓRNOŚLĄSKIE CENTRUM MEDYCZNE IM. PROF. LESZKA GIECA ŚLĄSKIEGO UNIWERSYTETU MEDYCZNEGO W KATOWICACH;Ziołowa 45-47, 40-635;50.21145;18.99809
+000000018596-104;śląskie;Katowice;Górnośląskie Centrum Zdrowia Dziecka im. św. Jana Pawła II Samodzielny Publiczny Szpital Kliniczny Nr 6;Medyków 16, 40-752;50.22377;18.951229
+000000014131-109;śląskie;Racibórz;Szpital Rejonowy im. dr. Józefa Rostka w Raciborzu;Gamowska 3, 47-400;50.101428;18.203453
+000000012877-017;śląskie;Rybnik;Samodzielny Publiczny Zakład Opieki Zdrowotnej Wojewódzki Szpital Specjalistyczny nr 3 w Rybniku;Energetyków 46, 44-200;50.11301;18.52226
+000000013912-123;śląskie;Sosnowiec;Centrum Zdrowia Dziecka i Rodziny im. Jana Pawła II w Sosnowcu Spółka z o.o.;G.Zapolskiej 3, 41-218;50.27349;19.19781
+000000014060-112;śląskie;Sosnowiec;Wojewódzki Szpital Specjalistyczny nr 5 im. Św. Barbary w Sosnowcu;Plac Medyków 1, 41-200;50.30368;19.12367
+000000024528-013;śląskie;Tarnowskie Góry;Wielospecjalistyczny Szpital Powiatowy Spółka Akcyjna;Pyskowicka 47-51, 42-612;50.43987;18.8073
+000000023417-075;śląskie;Zabrze;Szpital Miejski w Zabrzu Spółka z ograniczoną odpowiedzialnością;Zamkowa 4, 41-803;50.32577;18.82858
+000000014125-073;śląskie;Zawiercie;Szpital Powiatowy w Zawierciu;Miodowa 14, 42-400;50.48179;19.40878
+000000210111-008;świętokrzyskie;Jędrzejów;Szpital Specjalistyczny Artmedik Spółka z o. o. w Jędrzejowie;Małogoska 25, 28-300;50.6481;20.30208
+000000019643-110;świętokrzyskie;Kielce;Samodzielny Publiczny Zakład Opieki Zdrowotnej MSWiA;Wojska Polskiego 51, 25-375;50.85984;20.63512
+000000020682-043;świętokrzyskie;Kielce;Szpital Kielecki Św. Aleksandra Spółka z o. o.;Kościuszki 25, 25-316;50.873749;20.63859
+000000014597-018;świętokrzyskie;Kielce;Wojewódzki Szpital Zespolony w Kielcach;Grunwaldzka 45, 25-736;50.87383;20.60103
+000000014586-021;świętokrzyskie;Końskie;Zespół Opieki Zdrowotnej w Końskich;Gimnazjalna 41b, 26-200;51.1908;20.39173
+000000014595-017;świętokrzyskie;Ostrowiec Świętokrzyski;Wielospecjalistyczny Szpital w Ostrowcu Świętokrzyskim;Szymanowskiego 11, 27-400;50.95281;21.36153
+000000014784-016;świętokrzyskie;Sandomierz;Szpital Specjalistyczny Ducha Świętego w Sandomierzu;Schinzla 13, 27-600;50.698219;21.75104
+000000014643-055;świętokrzyskie;Skarżysko-Kamienna;Zespół Opieki Zdrowotnej w Skarżysku Kamiennej Szpital Powiatowy im. Marii Skłodowskiej-Curie;Szpitalna 1, 26-110;51.12731;20.87139
+000000014630-067;świętokrzyskie;Starachowice;Powiatowy Zakład Opieki Zdrowotnej w Starachowicach;Batalionów Chłopskich 6, 27-200;51.06557;21.07127
+000000014786-012;świętokrzyskie;Staszów;Samodzielny Publiczny Zespół Zakładów Opieki Zdrowotnej w Staszowie;11 listopada 78, 28-200;50.56138;21.19072
+000000014598-076;świętokrzyskie;Włoszczowa;Zespół Opieki Zdrowotnej we Włoszczowie - Szpital Powiatowy im. Jana Pawła II;Żeromskiego 28, 29-100;50.84689;19.9733

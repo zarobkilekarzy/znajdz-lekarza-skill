@@ -8,7 +8,10 @@ Stan sprawdzony: listopad 2026.
 - Plik `robots.txt` serwisu **zabrania** automatycznego wchodzenia na: `/api/`, `/ajax/`, `/szukaj?` (wyszukiwarka wewnętrzna), `/ranking-lekarzy`. Nie wchodź tam.
 - Nie obchodź zabezpieczeń (CAPTCHA, blokady). Jeśli strona się nie otwiera — przerwij i oprzyj się na wyszukiwarce internetowej.
 
-Czytasz wyłącznie **publiczne strony list i profili**, tak jak zwykły odwiedzający: do ok. 20 stron na jedno szukanie, z przerwą 2–3 sekund między pobraniami. Nie zapisuj ani nie kopiuj całych zbiorów danych — bierzesz tylko to, co potrzebne do odpowiedzi.
+- **Nie udawaj przeglądarki.** Nie ustawiaj fałszywego nagłówka `User-Agent` ani innych nagłówków, które ukrywają, że stronę pobiera automat.
+- Serwis ma własny regulamin. Jeśli osoba albo serwis zgłasza zastrzeżenie do automatycznego odczytu — przerwij i podaj osobie linki do samodzielnego otwarcia.
+
+Czytasz wyłącznie **publiczne strony list i profili**: do ok. 20 stron na jedno szukanie, z przerwą 2–3 sekund między pobraniami. Nie zapisuj ani nie kopiuj całych zbiorów danych — bierzesz tylko to, co potrzebne do odpowiedzi.
 
 ## Adresy
 
@@ -21,8 +24,10 @@ Fragmenty adresu (slug) pisze się małymi literami, bez polskich znaków, ze sp
 | lista według specjalizacji | `/<specjalizacja>/<miasto>` | `https://www.znanylekarz.pl/endokrynolog/krakow` |
 | to samo, tylko przyjmujący **na NFZ** | `/<specjalizacja>/<miasto>/nfz` | `https://www.znanylekarz.pl/endokrynolog/krakow/nfz` |
 | kolejna strona listy | dopisz `?page=2`, `?page=3` | `https://www.znanylekarz.pl/endokrynolog/krakow?page=2` |
-| profil lekarza | `/profil/<imie-nazwisko>` albo `/<imie-nazwisko>/<specjalizacja>/<miasto>` | `https://www.znanylekarz.pl/profil/…` |
+| profil lekarza | adres **zawsze z listy albo z wyników wyszukiwania** | `https://www.znanylekarz.pl/profil/…` |
 | profil placówki | `/placowki/<nazwa>` | `https://www.znanylekarz.pl/placowki/…` |
+
+**Adresu profilu nie składaj z imienia i nazwiska.** Lekarze o tym samym nazwisku mają adresy z dopiskiem (`-2`, `-3`), więc złożony adres może prowadzić do innej osoby. Po otwarciu profilu sprawdź, czy imię, nazwisko, specjalizacja i miasto zgadzają się z kandydatem.
 
 Jeśli nie znasz sluga choroby lub usługi, nie zgaduj w kółko: wejdź na listę specjalizacji, otwórz jeden profil i weź slug z sekcji „Choroby” (linki `/choroby/<slug>`), albo znajdź go wyszukiwarką internetową: `site:znanylekarz.pl/choroby <nazwa choroby>`.
 
@@ -50,11 +55,11 @@ Jeśli pobierasz surowy HTML (np. przez `curl`), te same dane są w atrybutach e
 | `data-eec-address-cities` | miasta, w których przyjmuje |
 | `data-is-online-only` | `true` = tylko konsultacje online |
 | `data-has-calendar-with-slots` | `1` = ma rezerwację online z wolnymi terminami; brak albo `0` znaczy tylko „bez rezerwacji online”, nie „brak terminów” |
-| `data-result-type` | `first-class` = **profil płatny, wyróżniony**; `organic` = zwykły |
+| `data-result-type` | `first-class` = wynik wyróżniony przez serwis; `organic` = zwykły |
 
 ### Kolejność na liście to nie ranking jakości
 
-Na górze listy stoją profile płatne (`first-class`). Lekarz na 15. miejscu albo na trzeciej stronie może być lepszym wyborem niż pierwszy. Dlatego:
+Kolejność ustala serwis według własnych zasad, a część wyników jest oznaczona jako wyróżnione (`first-class`). Pozycja na liście nie mówi nic o doświadczeniu w konkretnej chorobie. Lekarz na 15. miejscu albo na trzeciej stronie może być lepszym wyborem niż pierwszy. Dlatego:
 
 - przejrzyj co najmniej dwie strony listy,
 - wybieraj kandydatów po dopasowaniu do problemu, nie po pozycji,
@@ -114,10 +119,24 @@ Rodzaj placówki ustal ze strony placówki w serwisie (`/placowki/…`: sekcje o
 
 ## Przykład przez curl
 
-Gdy nie masz narzędzia do czytania stron. To samo polecenie działa w macOS, Linuksie i Windows 10/11 (w PowerShell wpisz `curl.exe` zamiast `curl`):
+Gdy nie masz narzędzia do czytania stron. Plik zapisuj **w katalogu tymczasowym systemu, nigdy w katalogu roboczym osoby**, i usuń go po odczytaniu.
+
+macOS i Linux:
 
 ```
-curl -s -L -A "Mozilla/5.0" -o lista.html "https://www.znanylekarz.pl/choroby/niedoczynnosc-tarczycy/krakow"
+curl -s -L -o "${TMPDIR:-/tmp}/zl-lista.html" "https://www.znanylekarz.pl/choroby/niedoczynnosc-tarczycy/krakow"
+grep -o 'data-doctor-name="[^"]*"\|data-doctor-url="[^"]*"\|data-eec-specialization-name="[^"]*"\|data-eec-opinions-count="[^"]*"' "${TMPDIR:-/tmp}/zl-lista.html"
+rm "${TMPDIR:-/tmp}/zl-lista.html"
 ```
 
-Plik ma ok. 1 MB — nie czytaj go w całości. Wyszukaj w nim fragmenty `data-doctor-name=` (lista) albo `application/ld+json` (profil) i czytaj tylko ich otoczenie. Po zakończeniu usuń pobrane pliki.
+Windows (PowerShell):
+
+```
+curl.exe -s -L -o "$env:TEMP\zl-lista.html" "https://www.znanylekarz.pl/choroby/niedoczynnosc-tarczycy/krakow"
+Select-String -Path "$env:TEMP\zl-lista.html" -Encoding UTF8 -AllMatches -Pattern 'data-doctor-name="[^"]*"|data-doctor-url="[^"]*"|data-eec-specialization-name="[^"]*"|data-eec-opinions-count="[^"]*"' | ForEach-Object { $_.Matches.Value }
+Remove-Item "$env:TEMP\zl-lista.html"
+```
+
+Oba polecenia wypisują po kolei nazwę, adres profilu, specjalizację i liczbę opinii każdego wyniku. Plik ma ok. 1 MB — **nie wczytuj go w całości**. Jeśli masz własne narzędzie do przeszukiwania plików, użyj go zamiast `grep` / `Select-String`.
+
+Dla profilu szukaj w ten sam sposób wzorca `application/ld\+json` i czytaj tylko blok, który po nim następuje; sekcje „Choroby”, „Usługi i ceny” i adresy znajdziesz, szukając tych nagłówków w tekście. Niczego nie instaluj — jeśli te polecenia nie wystarczają, oprzyj się na wyszukiwarce internetowej i podaj osobie linki.
