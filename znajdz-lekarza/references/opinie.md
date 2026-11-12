@@ -1,4 +1,4 @@
-# Oceny i opinie — skąd je brać bez przeglądarki
+# Oceny i opinie — skąd je brać, z przeglądarką i bez
 
 Stan sprawdzony: listopad 2026.
 
@@ -6,12 +6,31 @@ Cel: przy każdym lekarzu i każdej placówce **oceny z co najmniej dwóch nieza
 
 ## Drabinka — użyj najwyższego szczebla, jaki masz
 
-1. **Masz narzędzie map lub miejsc** (wyszukiwanie miejsc, Mapy Google, przeglądarka z wykonywaniem skryptów): odczytaj ocenę i liczbę opinii z wizytówki Google. Sprawdź nazwę i adres — sieci medyczne mają wiele oddziałów, każdy z własną oceną.
-2. **Serwisy, które oddają oceny w zwykłym HTML** (tabela niżej): pobierz stronę lekarza lub placówki. To podstawowa droga dla asystenta bez przeglądarki. **Strona placówki w Kliniki.pl podaje też ocenę z Google** — to jedyna sprawdzona droga do oceny Google bez przeglądarki.
-3. **Wynik wyszukiwania**: jeśli wyszukiwarka pokazuje ocenę z wizytówki Google, wolno ją podać, gdy nazwa i adres są jednoznaczne. Nie licz na to — w testach wyszukiwarka zwykle jej nie podawała.
-4. **Link dla osoby**: gdy oceny Google nie masz, napisz „Google: nie odczytano” i daj link `https://www.google.com/maps/search/?api=1&query=<nazwa+placówki+miasto>`.
+1. **Masz narzędzie map lub miejsc** (wyszukiwanie miejsc, dane Map Google): odczytaj z niego ocenę i liczbę opinii wizytówki.
+2. **Masz przeglądarkę, którą sterujesz** — wbudowaną w asystenta albo podłączoną jako narzędzie (np. przez MCP): otwórz wizytówki Google finalnych placówek. Instrukcja niżej.
+3. **Serwisy, które oddają oceny w zwykłym HTML** (tabela niżej): pobierz stronę lekarza lub placówki. To podstawowa droga dla asystenta bez przeglądarki; korzystaj z niej także wtedy, gdy masz przeglądarkę — to drugie źródło. Strona placówki w Kliniki.pl podaje też ocenę z Google, ale bywa to **starsza migawka** (w teście 451 opinii wobec 487 na wizytówce).
+4. **Wynik wyszukiwania**: jeśli wyszukiwarka pokazuje ocenę z wizytówki Google, wolno ją podać, gdy nazwa i adres są jednoznaczne. Nie licz na to — w testach wyszukiwarka jej nie podawała.
+5. **Link dla osoby**: gdy oceny Google nie masz, napisz „Google: nie odczytano” i daj link `https://www.google.com/maps/search/?api=1&query=<nazwa+placówki+miasto>`.
 
-Nie instaluj przeglądarki ani dodatków i nie proś o to osoby. Nie pobieraj stron Map Google przez `curl` — nie zawierają ocen.
+**Używasz tylko tego, co już masz.** Nie instaluj przeglądarki, rozszerzeń ani serwerów narzędzi i nie proś o to osoby w trakcie szukania. Nie pobieraj stron Map Google przez `curl` ani przeglądarką uruchamianą bez okna z wiersza poleceń — dostaniesz ekran zgody na pliki cookie, bez ocen.
+
+## Wizytówka Google w przeglądarce
+
+Sprawdzone w listopadzie 2026 r. Tylko dla **3–5 finalnych placówek** (do ok. 6 wizytówek na odpowiedź) — to wolne i kosztowne.
+
+1. Otwórz `https://www.google.com/maps/search/?api=1&query=<nazwa placówki>+<ulica>+<miasto>`.
+2. Jeśli pojawi się ekran „Zanim przejdziesz do Map Google”, wybierz **„Odrzuć wszystko”**. Nigdy „Zaakceptuj wszystko”. Ekran pojawia się raz na sesję.
+3. Poczekaj kilka sekund, aż załaduje się panel wizytówki. Ocena stoi pod nazwą placówki: średnia, gwiazdki i liczba opinii w nawiasie, np. „4,5 (487)”.
+4. **Odczytaj ją ze zrzutu ekranu albo z drzewa elementów strony** (element z opisem w rodzaju „4,5-gwiazdkowy”). Zwykłe pobranie tekstu strony zwraca tylko menu Map, bez oceny.
+5. Sprawdź nazwę i adres w panelu. Jeśli zamiast jednej wizytówki jest lista wyników, wybierz ten z właściwym adresem; jeśli nie masz pewności — nie podawaj oceny.
+6. Zapisz: „Google: 4,5/5 (487 opinii, placówka)”.
+
+Granice:
+
+- **Nie loguj się** i nie korzystaj z konta osoby, nawet jeśli przeglądarka jest zalogowana. Nie klikaj niczego poza ekranem zgody i wizytówką; nie dodawaj opinii, nie zapisuj miejsc.
+- **CAPTCHA, blokada albo prośba o logowanie = koniec.** Nie obchodź zabezpieczeń; przejdź do szczebla 3 i daj link.
+- Nie przeglądaj masowo: żadnego przewijania listy opinii ani odwiedzania dziesiątek wizytówek. Potrzebujesz średniej i liczby opinii; treść opinii bierz z serwisów z tabeli niżej.
+- Jeśli przeglądarka należy do osoby (jej własne okno), uprzedź jednym zdaniem, co otworzysz, zanim zaczniesz.
 
 ## Serwisy z ocenami w zwykłym HTML
 
@@ -50,7 +69,7 @@ Lekarze pracujący wyłącznie w szpitalach publicznych często nie mają ocen n
 
 ## Jak zapisać
 
-- Zawsze: źródło, średnia **ze skalą**, liczba opinii, czego dotyczy. Przykład: „ZnanyLekarz: 4,9/5 (247 opinii) · RankingLekarzy.pl: 4,8/5 (31 opinii) · Google: 4,6/5 (451 ocen, placówka, za Kliniki.pl)”; gdy Google brak: „Google: nie odczytano — [wizytówka](…)”.
+- Zawsze: źródło, średnia **ze skalą**, liczba opinii, czego dotyczy. Przykład: „ZnanyLekarz: 4,9/5 (247 opinii) · RankingLekarzy.pl: 4,8/5 (31 opinii) · Google: 4,5/5 (487 opinii, placówka)”; ocenę Google wziętą z Kliniki.pl oznacz „za Kliniki.pl, może być nieaktualna”; gdy Google brak: „Google: nie odczytano — [wizytówka](…)”.
 - **Nie przeliczaj skal i nie uśredniaj między serwisami.** 9,5/10 i 4,7/5 podaj obok siebie tak, jak są.
 - Ocena z kilku opinii znaczy niewiele — liczba opinii zawsze stoi obok średniej.
 - Duża różnica między źródłami to informacja: powiedz o niej i sprawdź, czego dotyczą niskie oceny (często rejestracja i kolejka, nie leczenie).
@@ -58,4 +77,4 @@ Lekarze pracujący wyłącznie w szpitalach publicznych często nie mają ocen n
 
 ## Na końcu odpowiedzi
 
-Jeśli dla wybranych lekarzy lub placówek nie masz oceny Google, dodaj jedno zdanie: „Ocen Google nie mogę odczytać. Jeśli chcesz je uwzględnić, otwórz linki do wizytówek i wklej mi oceny — dopiszę je do porównania.” Nie powtarzaj tej prośby przy każdym lekarzu.
+Jeśli dla wybranych lekarzy lub placówek nie masz oceny Google (nie masz przeglądarki albo wizytówka się nie otworzyła), dodaj jedno zdanie: „Ocen Google nie mogę odczytać. Jeśli chcesz je uwzględnić, otwórz linki do wizytówek i wklej mi oceny — dopiszę je do porównania.” Nie powtarzaj tej prośby przy każdym lekarzu.

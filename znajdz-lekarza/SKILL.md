@@ -2,10 +2,10 @@
 name: znajdz-lekarza
 description: Pomaga znaleźć w Polsce lekarza specjalistę dopasowanego do konkretnego problemu zdrowotnego. Prowadzi krótki wywiad, dobiera typ specjalisty i wąską dziedzinę, ustala, czy szukać na NFZ, czy prywatnie, a potem przeszukuje wyszukiwarkę internetową, ZnanyLekarz i terminy leczenia NFZ. Ocenia przede wszystkim doświadczenie lekarza w podobnych przypadkach, a oceny pacjentów traktuje pomocniczo. Pomaga też wybrać przychodnię i lekarza POZ (lekarza rodzinnego). Użyj, gdy ktoś pyta o dobrego lekarza, specjalistę, poradnię, lekarza rodzinnego, zmianę przychodni, termin wizyty na NFZ, kolejkę do specjalisty albo o to, do kogo pójść z danym objawem lub chorobą. W nagłych przypadkach kieruje od razu na SOR lub pod numer 112.
 license: MIT
-compatibility: Wymaga dostępu do internetu — narzędzia do wyszukiwania i czytania stron albo polecenia curl.
+compatibility: Wymaga dostępu do internetu — narzędzia do wyszukiwania i czytania stron albo polecenia curl. Przeglądarka asystenta jest opcjonalna (pełniejsze oceny).
 metadata:
   jezyk: pl
-  wersja: "1.1.0"
+  wersja: "1.2.0"
 ---
 
 # Znajdź lekarza
@@ -121,9 +121,10 @@ Podaj **3–5 lekarzy**, od najlepiej dopasowanego. Każdy lekarz ma w odpowiedz
 
 **Opis placówki** (przy lekarzu i przy poradniach NFZ) to 1–2 zdania, nie sama nazwa: pełna nazwa, adres, rodzaj (szpital kliniczny, poradnia przyszpitalna, sieciowe centrum medyczne, prywatna klinika specjalistyczna, gabinet indywidualny), co jest na miejscu (np. USG, biopsja, rezonans, blok operacyjny), NFZ czy prywatnie, cena, jeśli jest znana.
 
-**Oceny podajesz zawsze, z co najmniej dwóch niezależnych źródeł, z nazwą źródła.** Skąd je brać, także bez przeglądarki: [references/opinie.md](references/opinie.md).
+**Oceny podajesz zawsze, z co najmniej dwóch niezależnych źródeł, z nazwą źródła.** Skąd je brać, z przeglądarką i bez: [references/opinie.md](references/opinie.md).
 
-- Źródła, które da się czytać zwykłym pobraniem strony: ZnanyLekarz, Kliniki.pl, RankingLekarzy.pl, swiatprzychodni.pl. Ocenę Google podaj, jeśli masz narzędzie, które ją pokazuje, albo za stroną placówki w Kliniki.pl; w przeciwnym razie „Google: nie odczytano” i link do wizytówki. Źródło z mniej niż 5 opiniami nie liczy się jako drugie.
+- Bez przeglądarki: ZnanyLekarz, Kliniki.pl, RankingLekarzy.pl, swiatprzychodni.pl — czyta się je zwykłym pobraniem strony. Źródło z mniej niż 5 opiniami nie liczy się jako drugie.
+- **Jeśli masz przeglądarkę, którą sterujesz** (wbudowaną albo podłączoną jako narzędzie), odczytaj też oceny z wizytówek Google finalnych placówek — instrukcja i granice w `opinie.md`. Niczego w tym celu nie instaluj. Bez przeglądarki: ocena Google za Kliniki.pl albo „Google: nie odczytano” i link do wizytówki.
 - Zapis: „ZnanyLekarz: 4,9/5 (247 opinii) · RankingLekarzy.pl: 4,8/5 (31 opinii) · Google: 4,6/5 (451 ocen, placówka, za Kliniki.pl)”. Skal nie przeliczaj i nie uśredniaj.
 - Jeśli znalazłeś tylko jedno źródło albo żadnego, napisz to i wymień, gdzie szukałeś. **Nigdy nie wpisuj oceny z pamięci ani szacunkowej.**
 - Oceny pomagają wybrać między podobnymi kandydatami; kolejność listy nadal wyznacza doświadczenie.

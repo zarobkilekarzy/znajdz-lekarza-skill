@@ -65,6 +65,10 @@ Zacznij nową rozmowę i zapytaj: „Jakie masz skille?”. Asystent powinien wy
 
 Asystent musi mieć dostęp do internetu (wyszukiwanie i czytanie stron).
 
+### Opcjonalnie: pełniejsze oceny z Google
+
+Skill działa bez przeglądarki. Jeśli Twój asystent ma własną przeglądarkę albo ma ją podłączoną jako narzędzie (na przykład przez MCP), skill użyje jej do odczytania ocen z wizytówek Google kilku wybranych placówek. Niczego nie trzeba w tym celu konfigurować w skillu, a sam skill niczego nie instaluje. Bez przeglądarki oceny pochodzą z serwisów z opiniami, a do wizytówek Google dostajesz linki.
+
 ### Aktualizacja
 
 Powtórz instalację — nowa wersja zastąpi starą. Lista wersji i zmian: [Wydania](https://github.com/zarobkilekarzy/znajdz-lekarza-skill/releases).
@@ -115,7 +119,7 @@ znajdz-lekarza/
     ├── poz.md                    wybór przychodni i lekarza rodzinnego (POZ)
     ├── znanylekarz.md            jak czytać publiczne strony ZnanyLekarz
     ├── nfz-terminy.md            opis API terminów leczenia NFZ
-    ├── opinie.md                 skąd brać oceny bez przeglądarki
+    ├── opinie.md                 skąd brać oceny, z przeglądarką i bez
     └── ocena.md                  kryteria oceny i format odpowiedzi
 ```
 
