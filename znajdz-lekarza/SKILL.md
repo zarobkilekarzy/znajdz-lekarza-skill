@@ -1,6 +1,6 @@
 ---
 name: znajdz-lekarza
-description: Pomaga znaleźć w Polsce lekarza specjalistę dopasowanego do konkretnego problemu zdrowotnego. Prowadzi krótki wywiad, dobiera typ specjalisty i wąską dziedzinę, ustala, czy szukać na NFZ, czy prywatnie, a potem przeszukuje wyszukiwarkę internetową, ZnanyLekarz i terminy leczenia NFZ. Ocenia przede wszystkim doświadczenie lekarza w podobnych przypadkach, a oceny pacjentów traktuje pomocniczo. Użyj, gdy ktoś pyta o dobrego lekarza, specjalistę, poradnię, termin wizyty na NFZ, kolejkę do specjalisty albo o to, do kogo pójść z danym objawem lub chorobą. W nagłych przypadkach kieruje od razu na SOR lub pod numer 112.
+description: Pomaga znaleźć w Polsce lekarza specjalistę dopasowanego do konkretnego problemu zdrowotnego. Prowadzi krótki wywiad, dobiera typ specjalisty i wąską dziedzinę, ustala, czy szukać na NFZ, czy prywatnie, a potem przeszukuje wyszukiwarkę internetową, ZnanyLekarz i terminy leczenia NFZ. Ocenia przede wszystkim doświadczenie lekarza w podobnych przypadkach, a oceny pacjentów traktuje pomocniczo. Pomaga też wybrać przychodnię i lekarza POZ (lekarza rodzinnego). Użyj, gdy ktoś pyta o dobrego lekarza, specjalistę, poradnię, lekarza rodzinnego, zmianę przychodni, termin wizyty na NFZ, kolejkę do specjalisty albo o to, do kogo pójść z danym objawem lub chorobą. W nagłych przypadkach kieruje od razu na SOR lub pod numer 112.
 license: MIT
 compatibility: Wymaga dostępu do internetu — narzędzia do wyszukiwania i czytania stron albo polecenia curl.
 metadata:
@@ -47,6 +47,8 @@ Jak znaleźć najbliższy SOR i co jeszcze powiedzieć (numery pomocowe, nocna p
 Do szukania specjalisty wróć dopiero, gdy osoba potwierdzi, że sytuacja nie jest nagła albo że pomoc jest już w drodze.
 
 ## Krok 1. Wywiad
+
+**Jeśli osoba szuka lekarza rodzinnego albo przychodni POZ** (także: chce zmienić przychodnię), zamiast kroków 1–5 zastosuj [references/poz.md](references/poz.md) — tam jest krótszy wywiad, inne kryteria i inny format odpowiedzi.
 
 Zadaj **najwyżej 6–7 pytań, w jednej lub dwóch turach**. Nie pytaj o to, co już wiesz z rozmowy. Pełna lista pytań, wskazówki doboru specjalisty i zasady skierowań: [references/wywiad.md](references/wywiad.md).
 

@@ -41,6 +41,7 @@ Nie trzeba znać żadnych poleceń. Napisz, z czym szukasz lekarza i gdzie miesz
 - „Do kogo pójść z nawracającym bólem barku po urazie? Jestem z Lublina.”
 - „Potrzebuję neurologa dziecięcego na NFZ w okolicach Rzeszowa.”
 - „Ile się czeka do okulisty na NFZ w Gdańsku?”
+- „Chcę zmienić przychodnię. Szukam dobrego lekarza rodzinnego na Bielanach w Warszawie.”
 
 Co będzie dalej:
 
@@ -69,6 +70,7 @@ znajdz-lekarza/
 └── references/
     ├── nagle-przypadki.md        112, SOR, nocna pomoc, telefony wsparcia
     ├── wywiad.md                 pytania, dobór specjalisty, skierowania
+    ├── poz.md                    wybór przychodni i lekarza rodzinnego (POZ)
     ├── znanylekarz.md            jak czytać publiczne strony ZnanyLekarz
     ├── nfz-terminy.md            opis API terminów leczenia NFZ
     └── ocena.md                  kryteria oceny i format odpowiedzi
