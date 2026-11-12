@@ -88,9 +88,13 @@ znajdz-lekarza/
 
 Wynik zależy od tego, co jest publicznie dostępne w internecie. Lista lekarzy **nie jest poradą medyczną ani rankingiem**; terminy, ceny i zakres leczenia trzeba potwierdzić w rejestracji. Dane o zdrowiu podane w rozmowie nie trafiają do zapytań — asystent wyszukuje po specjalizacji, nazwie choroby i miejscowości.
 
-## Zgłaszanie błędów
+## Zgłaszanie błędów i propozycje
 
-Adresy stron i odpowiedzi API się zmieniają. Jeśli coś przestało działać, zgłoś to w zakładce **Issues**.
+Adresy stron i odpowiedzi API się zmieniają. Jeśli coś przestało działać albo skill podał błędną informację, zgłoś to w zakładce **Issues** — najlepiej z pytaniem, które zadałeś, i fragmentem odpowiedzi (bez danych osobowych i bez opisu własnego zdrowia). Poprawki w postaci pull requestów są mile widziane.
+
+## O projekcie
+
+Skill rozwija [zarobkilekarzy.pl](https://zarobkilekarzy.pl) — obywatelski serwis o jawności pieniędzy publicznych w ochronie zdrowia. Projekt nie jest powiązany z NFZ ani z serwisem ZnanyLekarz i nie pobiera żadnych opłat od lekarzy ani placówek.
 
 ## Licencja
 
