@@ -46,11 +46,16 @@ Asystent zapyta o zgodę na pobranie pliku — to jedyne, co trzeba zatwierdzić
 1. Pobierz **[znajdz-lekarza.zip](https://github.com/zarobkilekarzy/znajdz-lekarza-skill/releases/latest/download/znajdz-lekarza.zip)** i rozpakuj. Dostaniesz folder `znajdz-lekarza`.
 2. Przenieś ten folder do katalogu skilli swojego asystenta:
 
-| Asystent | Katalog |
-|---|---|
-| Claude Code | `~/.claude/skills/` |
-| Codex | `~/.agents/skills/` |
-| inne narzędzia zgodne z [Agent Skills](https://agentskills.io) | według dokumentacji narzędzia — szukaj hasła „skills” |
+| Asystent | Katalog skilli | Jak wywołać |
+|---|---|---|
+| Claude Code | `~/.claude/skills/` | `/znajdz-lekarza` |
+| Codex (OpenAI) | `~/.agents/skills/` | `$znajdz-lekarza` albo lista `/skills` |
+| Gemini CLI | `~/.gemini/skills/` albo `~/.agents/skills/` | sam, gdy zapytasz o lekarza; poprosi o zgodę na użycie skilla |
+| Cursor | `~/.cursor/skills/` albo `~/.agents/skills/` | `/znajdz-lekarza` w oknie agenta |
+| GitHub Copilot w VS Code | `~/.copilot/skills/` | `/znajdz-lekarza` w oknie czatu |
+| inne narzędzia zgodne z [Agent Skills](https://agentskills.io) | według dokumentacji narzędzia — szukaj hasła „skills” | |
+
+Katalog `~/.agents/skills/` czytają jednocześnie Codex, Gemini CLI i Cursor — jeśli używasz kilku, wystarczy umieścić folder tam.
 
 Znak `~` oznacza Twój folder domowy: w Windows np. `C:\Users\Anna`, w macOS `/Users/anna`. Jeśli katalogu `skills` jeszcze nie ma, utwórz go.
 
